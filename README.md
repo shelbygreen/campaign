@@ -9,3 +9,13 @@
 - Sign up for Updates
 - Volunteer
 - Petition form to get on the ballot
+
+### Internal Team
+- Monet 
+- Bruce
+- Alisha
+
+#### Policy Advisors
+
+
+#### Strategy Advisors
