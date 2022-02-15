@@ -1,6 +1,9 @@
 ### Timeline
-- by 2/18/2022: have campaign website live
-- 2/18/2022: file paperwork (announce to family & friends)
+- by 2/18/2022: 
+  - have campaign website live
+  - search 'Shelby Green' and my campaign website comes up
+- 2/18/2022:
+  - file paperwork (announce to family & friends / "soft launch")
 - 2/18/2022: set up campaign bank account
 - before 2/21/2022: announce to the other Supervisors
 - 2/21/2022: announce online (to all)
@@ -20,13 +23,15 @@
     - leave email. as soon as it's ready, will send an email with the petition
     - opt-in box 
 
-### Internal Team
+### Internal Campaign Advising Team
 - Monet 
 - Bruce
 - Alisha
+  [ ] ask: can you put me in touch with Doris Maloy to talk about her campaign?
+  [ ] ask: can you put together a list of Black churches for me to reach out to?  
 
 #### Policy Advisors
-- Steve Been?
+- Steve Been? 
 - Morgan Rosa?
 
 #### Strategy Advisors
@@ -35,3 +40,4 @@
 ### Phases:
 1. Building team / understanding how people can help (now -> announcement)
 2. Maintaining engagement (now -> announcement)
+3. Activating current network to reach main goal: 1,700 petitions by 05/01/2022
