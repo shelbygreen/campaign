@@ -1,3 +1,6 @@
+### Priorities
+- failing public infrastructure
+
 ### Timeline
 - by 2/18/2022: 
   - have campaign website live
