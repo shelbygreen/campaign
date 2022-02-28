@@ -1,15 +1,17 @@
 ### Priorities
-- failing public infrastructure
+- inadequate public infrastructure / increasing efficiency of public services and products -- roads, utilities
 
 ### Timeline
-- by 2/18/2022: 
+- before announcing:
   - have campaign website live
   - search 'Shelby Green' and my campaign website comes up
-- 2/18/2022:
-  - file paperwork (announce to family & friends / "soft launch")
-- 2/18/2022: set up campaign bank account
-- before 2/21/2022: announce to the other Supervisors
-- 2/21/2022: announce online (to all)
+- announcement day:
+  - file paperwork
+  - announce to family & friends / "soft launch"
+- monday after announcement day:
+  - set up campaign bank account
+- kick off party:
+  - when and where??? 
 ...
 - 5/02/2022: submit 1,700 petitions for verification
 ...
@@ -30,7 +32,7 @@
 - Monet 
 - Bruce
 - Alisha
-  [ ] ask: can you put me in touch with Doris Maloy to talk about her campaign?
+  [x] ask: can you put me in touch with Doris Maloy to talk about her campaign?
   [ ] ask: can you put together a list of Black churches for me to reach out to?  
 
 #### Policy Advisors
@@ -38,6 +40,9 @@
 - Morgan Rosa?
 
 #### Strategy Advisors
+- organizing
+- policy
+- debating / crafting arguments
 
 
 ### Phases:
