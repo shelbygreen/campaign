@@ -1,14 +1,16 @@
 ### Priorities
-- inadequate public infrastructure / increasing efficiency of public services and products -- roads, utilities
+- addressing inadequate, and failing, public services and infrastructure (roads, utilities, parks)
+  - improve efficiency to reduce reliance on natural gas
+
+### Goals
+- 0 poverty, 0 utility disconnections, and 0 traffic deaths by measuring the conditions of our public services and infrastructure. We cannot improve if we don’t even have a baseline. That is where open data and communication become crucial to moving this City forward, in the right direction, where no one is left behind.
 
 ### Timeline
 - before announcing:
   - have campaign website live
-  - search 'Shelby Green' and my campaign website comes up
 - announcement day:
   - file paperwork
   - announce to family & friends / "soft launch"
-- monday after announcement day:
   - set up campaign bank account
 - kick off party:
   - when and where??? 
