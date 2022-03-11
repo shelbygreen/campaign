@@ -35,7 +35,7 @@ export default function Home() {
         src={headshot}
         />
       </div>
-      <p className={utilStyles.headingLg}>Hi, I'm Shelby, and I want to represent <i>you</i> as Tallahassee's next City Commissioner.</p>
+      <p className={utilStyles.headingLg}>Hi, I'm Shelby, and I want to represent <i>you</i> as Tallahassee's next City Commissioner (Seat 5).</p>
       {/* <br/><br/> */}
       <p className={utilStyles.headingMd}>As Commissioner, I will focus on:
       <br/>
