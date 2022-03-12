@@ -15,6 +15,7 @@
 ### Possibilities
 - Either Adner or I will drop out of the race before the qualifying period
 - The 'Establishment' will run a candidate to siphon votes
+- Open source campaign?
 
 ## Campaign Team
 ### Internal Advisors
