@@ -1,53 +1,43 @@
-### Priorities
-- addressing inadequate, and failing, public services and infrastructure (roads, utilities, parks)
-  - improve efficiency to reduce reliance on natural gas
+[Website](shelbytlh.com)
+
+## Phase 1: Qualify for Office
+
+### Deadlines
+- Deadline #1: Submit petitions on 5/13/2022, 8:30am
+- Deadline #2: Submit qualifying paperwork and fee (~$420) on 6/13/2022, 12pm
+  - Sign [DS-DE 302NP](https://files.floridados.gov/media/704485/dsde302np-nop-oath-may-2021.pdf)
+  - Sign [Form 6](http://www.ethics.state.fl.us/Documents/Forms/Form%201_2021i.pdf?cp=2022312) and [Form 1](https://www.justiceadmin.org/HR/2015%20JAC%20-%20Print%20Copy.pdf)
 
 ### Goals
-- 0 poverty, 0 utility disconnections, and 0 traffic deaths by measuring the conditions of our public services and infrastructure. We cannot improve if we don’t even have a baseline. That is where open data and communication become crucial to moving this City forward, in the right direction, where no one is left behind.
+- Fundraise $_______ 
+  - Contribution Limit: $1,000 per Florida Statute 
 
-### Timeline
-- before announcing:
-  - have campaign website live
-- announcement day:
-  - file paperwork
-  - announce to family & friends / "soft launch"
-  - set up campaign bank account
-- kick off party:
-  - when and where??? 
-...
-- 5/02/2022: submit 1,700 petitions for verification
-...
+### Possibilities
+- Either Adner or I will drop out of the race before the qualifying period
+- The 'Establishment' will run a candidate to siphon votes
 
-### Website Design
-- Name
-- Background
-- Why am I running? (top 3 policy points)
-- What do I plan to do as Commissioner?
-- How can I help?
-  - Sign up for Updates
-  - Volunteer
-  - Petition form to get on the ballot
-    - leave email. as soon as it's ready, will send an email with the petition
-    - opt-in box 
+## Campaign Team
+### Internal Advisors
 
-### Internal Campaign Advising Team
-- Monet 
-- Bruce
-- Alisha
-  [x] ask: can you put me in touch with Doris Maloy to talk about her campaign?
-  [ ] ask: can you put together a list of Black churches for me to reach out to?  
+### Policy Advisors
+- [ ] Steve Been - Decarbonizing Utility
+- [ ] Morgan Rosa - Environmental
+- [ ] Monet Moore - 
+- [ ] Transportation Planning
+- [ ] Community Programs
+- [ ] Poverty
+- [ ] FSU
+- [ ] FAMU
+- [ ] TCC
 
-#### Policy Advisors
-- Steve Been? 
-- Morgan Rosa?
+### Organizing Strategy Advisors
+- [ ] Melanie Moore
 
-#### Strategy Advisors
-- organizing
-- policy
-- debating / crafting arguments
+### Volunteers
+- 
 
+### Debate Advisors 
+-
 
-### Phases:
-1. Building team / understanding how people can help (now -> announcement)
-2. Maintaining engagement (now -> announcement)
-3. Activating current network to reach main goal: 1,700 petitions by 05/01/2022
+### Fundraising Event Planners
+- 
