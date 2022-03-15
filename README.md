@@ -21,7 +21,7 @@
 ### Internal Advisors
 
 ### Policy Advisors
-- [ ] Steve Been - Decarbonizing Utility
+- [ ] Steve Been? - Decarbonizing Utility
 - [ ] Morgan Rosa - Environmental
 - [ ] Monet Moore - 
 - [ ] Transportation Planning
