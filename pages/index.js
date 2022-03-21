@@ -51,6 +51,7 @@ export default function Home() {
         <div className={utilStyles.button}><Link href="/petition">Help me get on the ballot! Sign a petition</Link></div>
         <div className={utilStyles.button}><Link href="/events">Get involved on the campaign! 🥳</Link></div>
         <div className={utilStyles.button}><Link href="/volunteer">Sign up to share your skills with the campaign</Link></div>
+        <div className={utilStyles.button}><Link href="/dare">Share your dreams for Tallahassee</Link></div>
         <div className={utilStyles.button}><Link href="/get-involved">Subscribe to get campaign news</Link></div>     
       </div> 
 
