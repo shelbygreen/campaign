@@ -9,12 +9,12 @@ export default function Petition() {
                 <Head>
                     <title>petition</title>
                 </Head>
-                <p className={utilStyles.headingMd}> I need to collect petitions to qualify as a candidate on the election ballot. Please help me get on the ballot by signing a petition.
+                <p className={utilStyles.headingMd}> I need to collect petitions to qualify as a candidate on the election ballot. Please help me reach my goal by signing a petition.
                 <br/><br/>
                 You must be a City of Tallahassee resident and registered voter to sign a petition! If you need to update your voter registration, please go <a href="https://registertovoteflorida.gov/eligibilityreactive"><b>here</b>.</a><br/>
                 <br/>
                 Option 1: Print out the petition <a href="https://drive.google.com/file/d/1guGGYjk2d_ipG9Myj3wKaAJ3pkoXraVM/view?usp=sharing">here</a>, sign it, and mail it to me -- 519 Ingleside Avenue, Tallahassee FL 32303. <br/>
-                Option 2 -- preferred option: Fill out the form below. I'll coordinate a time to stop by with a petition and get your signature. </p> 
+                Option 2: Fill out the form below. I'll coordinate a time to stop by with a petition and get your signature. </p> 
 
                 <iframe class="airtable-embed" src="https://airtable.com/embed/shr7rld8pcVDKSlcI?backgroundColor=teal" frameborder="0" onmousewheel="" width="100%" height="533" style={{border: '1px solid #ccc'}}></iframe>
                 

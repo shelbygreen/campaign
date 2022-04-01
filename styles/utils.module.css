@@ -14,7 +14,7 @@
 }
   
 .headingXl {
-    font-size: 2rem;
+    font-size: 1.25rem;
     line-height: 1.3;
     font-weight: 800;
     letter-spacing: -0.05rem;
@@ -109,7 +109,7 @@
 }
 
 .headshotBox {
-    width: 250px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
 }

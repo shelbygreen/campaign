@@ -1,29 +1,24 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import homeStyles from '../styles/Home.module.css'
 import Image from 'next/image'
-import Link from 'next/link'
 import headshot from '../public/images/profile-2.png'
+import { getSortedPostsData } from '../lib/posts'
 
-export default function Home() {
-  
-  // WIP
-  // $(function() {
-  //   changer();
-  // });
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData()
+  return {
+      props: {
+        allPostsData
+      }
+  }
+}
 
-  // function changer() {
-  //     var words = ["an adaptive", "a responsive",
-  //     "a resilient", "an open", "a sustainable",
-  //     "a vibrant", "a collaborative", "an inviting", "an innovative"];
-  //     var idx = Math.floor(words.length * Math.random());
-  //     $('#change').text(words[idx]);
-  //     var time = Math.floor(5000 * Math.random() + 3000);
-  //     setTimeout(changer,time);
-  // }
-
+export default function Home({allPostsData}) {
   return (
+    <>
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
@@ -35,8 +30,9 @@ export default function Home() {
         src={headshot}
         />
       </div>
-      <p className={utilStyles.headingLg}>Hi, I'm Shelby, and I want to represent <i>you</i> as Tallahassee's next City Commissioner (Seat 5).</p>
-      {/* <br/><br/> */}
+      {/* introduction  */}
+      {/* <p className={utilStyles.headingLg}>Hi, I'm Shelby, and I want to represent <i>you</i> as Tallahassee's next City Commissioner (Seat 5).</p>
+      <p className={utilStyles.headingLg}>As a policy analyst, researcher, and software developer, I know how to develop innovative and data-driven policies that will transform Tallahassee into an affordable, integrated, sustainable, and efficient City that works for all of us. </p> */}
       <p className={utilStyles.headingMd}>As Commissioner, I will focus on:
       <br/>
       1. improving our inadequate, and failing, public services (e.g. utilities) and infrastructure (e.g. roads) <br/>
@@ -48,16 +44,18 @@ export default function Home() {
       <p className={utilStyles.blurb}><b>Let's build <span id="change"></span> Tallahassee, together.</b></p>
 
       <div className={utilStyles.buttonBox}>
-        <div className={utilStyles.button}><Link href="/petition">Help me get on the ballot! Sign a petition</Link></div>
-        <div className={utilStyles.button}><Link href="/events">Get involved on the campaign! 🥳</Link></div>
-        <div className={utilStyles.button}><Link href="/volunteer">Sign up to share your skills with the campaign</Link></div>
+      <div className={utilStyles.button}><a href="https://secure.actblue.com/donate/shelbytlh">Donate now</a></div>
+        <div className={utilStyles.button}><Link href="/petition">Help me get on the ballot -- sign a petition</Link></div>
+        <div className={utilStyles.button}><Link href="/volunteer">Volunteer on the campaign</Link></div>
         <div className={utilStyles.button}><Link href="/dare">Share your dreams for Tallahassee</Link></div>
-        <div className={utilStyles.button}><Link href="/get-involved">Subscribe to get campaign news</Link></div>     
+        <div className={utilStyles.button}><Link href="/get-involved">Subscribe for campaign news</Link></div>     
       </div> 
 
+      {/* footer */}
       <div className={homeStyles.footer}>
         <center>made with <span style={{color: '#e25555'}}>&#9829;</span> by <a href="https://www.github.com/shelbygreen">shelby green</a></center>
       </div>
     </Layout>
+    </>
   )
 }
