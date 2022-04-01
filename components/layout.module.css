@@ -13,6 +13,7 @@
 
 .backToHome {
     margin: 3rem 0 0;
+    color: #f5be48;
 }
 
 @media (min-width: 768px) {
