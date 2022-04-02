@@ -48,6 +48,13 @@
     color: #1f9390;
 }
 
+.tiny {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #1f9390;
+}
+
 .borderCircle {
     border-radius: 9999px;
 }
