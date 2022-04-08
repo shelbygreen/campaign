@@ -33,7 +33,7 @@ export default function Home({allPostsData}) {
       {/* introduction  */}
       {/* <p className={utilStyles.headingLg}>Hi, I'm Shelby, and I want to represent <i>you</i> as Tallahassee's next City Commissioner (Seat 5).</p>
       <p className={utilStyles.headingLg}>As a policy analyst, researcher, and software developer, I know how to develop innovative and data-driven policies that will transform Tallahassee into an affordable, integrated, sustainable, and efficient City that works for all of us. </p> */}
-      <p className={utilStyles.tiny}><a href="https://drive.google.com/file/d/1F6qLEWs0egcIYQFTFj8AdnAkSYuBVNFX/view">resume</a> | <a href="https://instagram.com/shelbyisrunning">instagram</a> | <a href="https://www.tallahassee.com/story/news/local/2022/03/16/shelby-green-data-engineer-and-neighborhood-advocate-files-run-city-commission/7047536001/">in the news</a></p>
+      <p className={utilStyles.tiny}><a href="https://drive.google.com/file/d/1F6qLEWs0egcIYQFTFj8AdnAkSYuBVNFX/view">resume</a> | <a href="https://instagram.com/shelbyisrunning">instagram</a> | <a href="https://www.google.com/search?q=%22shelby+green%22+%22tallahassee%22+%22news%22&oq=%22shelby+green%22+%22tallahassee%22+%22news%22">in the news</a></p>
       <p className={utilStyles.headingMd}>As Commissioner, I will focus on:
       <br/>
       1. improving our inadequate, and failing, public services (e.g. utilities) and infrastructure (e.g. roads) <br/>
@@ -45,9 +45,9 @@ export default function Home({allPostsData}) {
       <p className={utilStyles.blurb}><b>Let's build <span id="change"></span> Tallahassee, together.</b></p>
 
       <div className={utilStyles.buttonBox}>
-      <div className={utilStyles.button}><a href="https://secure.actblue.com/donate/shelbytlh">Donate now</a></div>
-        <div className={utilStyles.button}><Link href="/petition">Help me get on the ballot -- sign a petition</Link></div>
-        <div className={utilStyles.button}><Link href="/volunteer">Volunteer on the campaign</Link></div>
+      <div className={utilStyles.button}><a href="https://secure.actblue.com/donate/bikehunt">Sign up for the Bike Scavenger Hunt</a></div>
+      <div className={utilStyles.button}><a href="https://secure.actblue.com/donate/shelbytlh">Donate to the campaign</a></div>
+        <div className={utilStyles.button}><Link href="/petition">Sign a petition to get me on the ballot</Link></div>
         <div className={utilStyles.button}><Link href="/dare">Share your dreams for Tallahassee</Link></div>
         <div className={utilStyles.button}><Link href="/get-involved">Subscribe for campaign news</Link></div>     
       </div> 
