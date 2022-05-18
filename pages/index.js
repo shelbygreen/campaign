@@ -46,10 +46,9 @@ export default function Home({allPostsData}) {
 
       <div className={utilStyles.buttonBox}>
       {/* <div className={utilStyles.button}><a href="/">Events Calendar (coming soon)</a></div> */}
-      <div className={utilStyles.button}><Link href="/posts/volunteer">Volunteer</Link></div>
-      <div className={utilStyles.button}><Link href="/petition">Sign a petition to get me on the ballot</Link></div>
-      <div className={utilStyles.button}><a href="https://secure.actblue.com/donate/shelbytlh">Donate</a></div>
-        <div className={utilStyles.button}><Link href="/get-involved">Sign up for the campaign newsletter</Link></div>     
+      <div className={utilStyles.button}><Link href="/bikeweek">Events for Bike Week</Link></div>
+      <div className={utilStyles.button}><Link href="/get-involved">Sign up for the campaign newsletter</Link></div>
+      <div className={utilStyles.button}><a href="https://secure.actblue.com/donate/shelbytlh">Donate</a></div>     
       </div> 
 
       {/* footer */}

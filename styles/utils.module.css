@@ -121,6 +121,37 @@
     margin-right: auto;
 }
 
+/* bike week styling */
+.eventTitle {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin: 0rem 0;
+    color: #1f9390;
+    text-transform: uppercase;
+}
+
+.eventBox {
+    display: inline-block;
+    font-size: 22px;
+    border: 1px solid #ffffff;
+    background-color: hsl(41, 100%, 74%, 0.5);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.eventBoxText {
+    margin-left: 5px;
+    text-align: left;
+    color: #666;
+    padding-top: 0px;
+    font-weight: 600;
+}
+
+.eventFlyer {
+    width: 100%;
+}
+
 /* table component */
 .table {
     border: 1px solid;
