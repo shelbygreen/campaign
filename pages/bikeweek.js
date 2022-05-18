@@ -20,7 +20,7 @@ export default function BikeWeek() {
                     <br></br><br></br>
                     Dust off your bike and join us this week!
                     <br></br><br></br>
-                    Text 'bikeweek' to 850-203-3558 for event reminders.</p>
+                    Sign up <a href="https://www.facebook.com/shelbyisrunning/events">here</a> or text 'bikeweek' to 850-203-3558</p>
                 <br></br>
 
                 <Image className={utilStyles.eventFlyer} src={flyer1}/>
