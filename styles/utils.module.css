@@ -35,6 +35,12 @@
     color: #666;
 }
 
+.headingMdGreen {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #1f9390;
+}
+
 .headingSm {
     font-size: 1.0rem;
     line-height: 1.0;
