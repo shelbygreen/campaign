@@ -20,7 +20,8 @@ export default function MovieNight() {
                     <b>Join us on May 21st, at 6:30pm, for an online screening of Kiki's Delivery Service</b>.
                     
                     We hope that this film encourages you to think about how we can redesign Tallahassee, building a more sustainable and connected city, where public funds and resources are invested into our community's wellbeing.  
-                    <p className={utilStyles.headingMdGreen}>The movie night will be hosted via Zoom, link <a href="https://us06web.zoom.us/j/4186130082"><b>here</b></a>.</p>
+                    <br></br><br></br>
+                    <p className={utilStyles.headingMdGreen}>The film will be Zoom, link <a href="https://discord.gg/eczZkS2e">here</a>.</p>
                 </p>
                 <br></br>
 
