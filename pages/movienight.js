@@ -21,7 +21,7 @@ export default function MovieNight() {
                     
                     We hope that this film encourages you to think about how we can redesign Tallahassee, building a more sustainable and connected city, where public funds and resources are invested into our community's wellbeing.  
                     <br></br><br></br>
-                    <p className={utilStyles.headingMdGreen}>The film will be Zoom, link <a href="https://discord.gg/eczZkS2e">here</a>.</p>
+                    The film will be screened on our Discord server. <p className={utilStyles.headingMdGreen}>Sign up <a href="https://discord.gg/eczZkS2e">here</a>.</p>
                 </p>
                 <br></br>
 
