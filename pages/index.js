@@ -45,9 +45,8 @@ export default function Home({allPostsData}) {
       <p className={utilStyles.blurb}><b>Let's build <span id="change"></span> Tallahassee, together.</b></p>
 
       <div className={utilStyles.buttonBox}>
-      {/* <div className={utilStyles.button}><a href="/">Events Calendar (coming soon)</a></div> */}
-      <div className={utilStyles.button}><Link href="/movienight">Movie Night: Kiki's Delivery Service</Link></div>
-      <div className={utilStyles.button}><Link href="/bikeweek">Events for Bike Week</Link></div>
+      <div className={utilStyles.button}><a href="/">Events Calendar (coming soon)</a></div>
+      <div className={utilStyles.button}><Link href="/sign">Request a yard sign</Link></div>
       <div className={utilStyles.button}><Link href="/get-involved">Sign up for the campaign newsletter</Link></div>
       <div className={utilStyles.button}><a href="https://secure.actblue.com/donate/shelbytlh">Donate</a></div>     
       </div> 
