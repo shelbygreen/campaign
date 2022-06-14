@@ -45,9 +45,9 @@ export default function Home({allPostsData}) {
       <p className={utilStyles.blurb}><b>Let's build <span id="change"></span> Tallahassee, together.</b></p>
 
       <div className={utilStyles.buttonBox}>
-      <div className={utilStyles.button}><a href="/">Events Calendar (coming soon)</a></div>
+      <div className={utilStyles.button}><a href="https://forms.gle/QcV6FZP9fvqS3Nn39">RSVP to the Canvassing Kick-off!</a></div>
       <div className={utilStyles.button}><Link href="/sign">Request a yard sign</Link></div>
-      <div className={utilStyles.button}><Link href="/get-involved">Sign up for the campaign newsletter</Link></div>
+      <div className={utilStyles.button}><Link href="/get-involved">Join the campaign</Link></div>
       <div className={utilStyles.button}><a href="https://secure.actblue.com/donate/shelbytlh">Donate</a></div>     
       </div> 
 
