@@ -45,6 +45,7 @@ export default function Home({allPostsData}) {
       <p className={utilStyles.blurb}><b>Let's build <span id="change"></span> Tallahassee, together.</b></p>
 
       <div className={utilStyles.buttonBox}>
+      <div className={utilStyles.button}><a href="/movienight">Join the movie night!</a></div>
       <div className={utilStyles.button}><a href="https://airtable.com/shrBn1gZmpMaM8Oia">Sign up to Canvass</a></div>
       <div className={utilStyles.button}><Link href="/sign">Request a yard sign</Link></div>
       <div className={utilStyles.button}><Link href="/get-involved">Join the campaign</Link></div>
