@@ -2,30 +2,27 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import Image from 'next/image'
-import kikiflyer from '../public/images/kikiflyer.jpeg'
+import flyer from '../public/images/moonlightflyer.jpeg'
 
 export default function MovieNight() {
     return (
         <>
             <Layout>
                 <Head>
-                    <title>05/21 movie night</title>
+                    <title>06/29 movie night</title>
                 </Head>
                 <p className={utilStyles.headingMd}>
-                    May is National Bike Month!
+                    June is Pride Month! To celebrate, we're hosting an online movie night.
                     <br></br><br></br>
-                    To celebrate, we're hosting a series of bike-centered events
-                    to highlight sustainability and public infrastructure! Bike-friendly infrastructure supports safe, affordable, and healthy ways to get around town -- without generating harmful pollutants and greenhouse gas emissions.
+                    <b>Join us on June 29th, at 7pm, for an online screening of Moonlight -- a film written and produced by a former Tallahassean, Barry Jenkins</b>.
                     <br></br><br></br>
-                    <b>Join us on May 21st, at 6:30pm, for an online screening of Kiki's Delivery Service</b>.
-                    
-                    We hope that this film encourages you to think about how we can redesign Tallahassee, building a more sustainable and connected city, where public funds and resources are invested into our community's wellbeing.  
+                    Moonlight is a heavy, yet poetic film that follows the life of Chiron, who struggles to understand his identity and role in the world. The film is rated R and explores how drug addiction, class divide, morality, and sexuality impact the development of a child.
                     <br></br><br></br>
-                    The film will be screened on our Discord server. <p className={utilStyles.headingMdGreen}>Sign up <a href="https://discord.gg/eczZkS2e">here</a>.</p>
+                    The film will be screened on our Discord server. <p className={utilStyles.headingMdGreen}>Watch with us <a href="https://discord.gg/McbyhHwf">here</a>.</p>
                 </p>
                 <br></br>
 
-                <Image className={utilStyles.eventFlyer} src={kikiflyer}/>
+                <Image className={utilStyles.eventFlyer} src={flyer}/>
             </Layout>
         </>
     )
