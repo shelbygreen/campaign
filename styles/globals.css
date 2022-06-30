@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'Canela';
   src: local('Canela'), url(../public/fonts/canela.otf) format('opentype');
+  font-family: 'Graphik';
+  src: local('Graphik'), url(../public/fonts/GraphikRegular.otf) format('opentype');
 }
 
 html,
