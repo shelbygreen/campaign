@@ -1,34 +1,84 @@
-import { Box, Button, Container, Group, TextInput } from "@mantine/core";
+import {
+  Box,
+  Button,
+  Container,
+  Group,
+  MultiSelect,
+  Text,
+  TextInput,
+} from "@mantine/core";
 import { useForm } from "@mantine/form";
-import { useState } from "react";
-import { MultiSelect } from "@mantine/core";
+import { showNotification } from "@mantine/notifications";
 import Head from "next/head";
 import Layout from "../components/layout";
-
 export default function Volunteer() {
   const submitForm = useForm({
     initialValues: {
       name: "",
       phone_number: "",
       email: "",
-      multi_select: "",
+      multi_select: ["Other"],
       other: "",
     },
     validate: {
       email: (value) =>
-        /^S+@S+\.S+$/.test(value) ? null : "Please enter a valid email address",
+        /^\S+@\S+$/.test(value) ? null : "Please enter a valid email address",
     },
   });
+
+  const handleSubmit = async (values) => {
+    const request = await fetch("/api/volunteer_submit", {
+      method: "Post",
+      body: JSON.stringify(values),
+      headers: { "Content-Type": "application/json" },
+    });
+
+    const result = await request.json();
+
+    if (result.data != "ok") {
+      showNotification({
+        title: "Error",
+        color: "red",
+        message: "Something went wrong",
+      });
+    }
+    if (result.data == "ok") {
+      showNotification({
+        title: "Success",
+        color: "green",
+        message: "Your submission has been received",
+      });
+
+      submitForm.setValues({
+        name: "",
+        phone_number: "",
+        email: "",
+        multi_select: [],
+        other: "",
+      });
+    }
+  };
 
   return (
     <>
       <Layout>
         <Head>
-          <title>focus points</title>
+          <title>volunteer</title>
         </Head>
-        <Container size="sm" px={0} mt="xl">
-          <Box mx="auto">
-            <form onsubmit={console.log(8)}>
+        <Container size="sm" px={0} mt="xl" px={20}>
+          <Box>
+            <Text size="xl" weight={700}>
+              Volunteer
+            </Text>
+            <Text>
+              After you sign up, you'll receive a text or email with additional
+              details
+            </Text>
+          </Box>
+          <Box mx="auto" pt={20}>
+            <form
+              onSubmit={submitForm.onSubmit((values) => handleSubmit(values))}
+            >
               <TextInput
                 required
                 label="Name"
@@ -48,21 +98,25 @@ export default function Volunteer() {
                 {...submitForm.getInputProps("email")}
               />
               <MultiSelect
+                required
                 data={[
-                  "Canvassing (knocking on doors, sharing info)",
-                  "Planning community events",
-                  "Coding",
-                  "Managing social media",
                   "Other",
+                  "Tabling (setting up a table & talking to supporters)",
+                  "Planning campaign events (townhalls, socials, fundraisers)",
+                  "Canvassing (knocking on doors & talking to supporters)",
+                  "Phone banking (calling supporters)",
                 ]}
                 label="I want to help by... "
                 placeholder="Pick all that you like"
                 defaultValue={["Other"]}
                 clearButtonLabel="Clear selection"
                 clearable
+                onChange={(value) => {
+                  submitForm.setFieldValue("multi_select", value);
+                }}
+                {...submitForm.getInputProps("multi_select")}
               />
               <TextInput
-                required
                 label="If you said other, share how you'd like to help:"
                 placeholder=""
                 {...submitForm.getInputProps("other")}
