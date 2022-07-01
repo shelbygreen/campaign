@@ -65,7 +65,7 @@ export default function Volunteer() {
         <Head>
           <title>volunteer</title>
         </Head>
-        <Container size="sm" px={0} mt="xl" px={20}>
+        <Container size="sm" mt="xl" px={20}>
           <Box>
             <Text size="xl" weight={700}>
               Volunteer
