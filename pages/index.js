@@ -33,7 +33,7 @@ export default function Home({allPostsData}) {
       {/* introduction  */}
       {/* <p className={utilStyles.headingLg}>Hi, I'm Shelby, and I want to represent <i>you</i> as Tallahassee's next City Commissioner (Seat 5).</p>
       <p className={utilStyles.headingLg}>As a policy analyst, researcher, and software developer, I know how to develop innovative and data-driven policies that will transform Tallahassee into an affordable, integrated, sustainable, and efficient City that works for all of us. </p> */}
-      <p className={utilStyles.tiny}><a href="https://drive.google.com/file/d/1F6qLEWs0egcIYQFTFj8AdnAkSYuBVNFX/view">email: info@shelbytlh.com | resume</a> | <a href="https://instagram.com/shelbytlh">instagram</a> | <a href="https://facebook.com/shelbytlh">facebook</a> | <a href="https://twitter.com/shelbytlh">twitter</a> | <a href="https://www.google.com/search?q=%22shelby+green%22+%22tallahassee%22+%22news%22&oq=%22shelby+green%22+%22tallahassee%22+%22news%22">in the news</a></p>
+      <p className={utilStyles.tiny}>email: info@shelbytlh.com | <a href="https://drive.google.com/file/d/1F6qLEWs0egcIYQFTFj8AdnAkSYuBVNFX/view">resume</a> | <a href="https://instagram.com/shelbytlh">instagram</a> | <a href="https://facebook.com/shelbytlh">facebook</a> | <a href="https://twitter.com/shelbytlh">twitter</a> | <a href="https://www.google.com/search?q=%22shelby+green%22+%22tallahassee%22+%22news%22&oq=%22shelby+green%22+%22tallahassee%22+%22news%22">in the news</a></p>
       <p className={utilStyles.headingMd}>As Commissioner, I will focus on:
       <br/>
       1. improving our inadequate, and failing, public services (e.g. utilities) and infrastructure (e.g. roads) <br/>
@@ -45,7 +45,7 @@ export default function Home({allPostsData}) {
       <p className={utilStyles.blurb}><b>Let's build <span id="change"></span> Tallahassee, together.</b></p>
 
       <div className={utilStyles.buttonBox}>
-      <div className={utilStyles.button}><a href="/movienight">Join the movie night!</a></div>
+      <div className={utilStyles.button}><a href="/events">RSVP for the 7/22 Campaign Meet and Greet</a></div>
       <div className={utilStyles.button}><a href="https://airtable.com/shrBn1gZmpMaM8Oia">Sign up to Canvass</a></div>
       <div className={utilStyles.button}><Link href="/sign">Request a yard sign</Link></div>
       <div className={utilStyles.button}><Link href="/get-involved">Join the campaign</Link></div>
