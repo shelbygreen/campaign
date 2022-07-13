@@ -46,9 +46,11 @@ export default function Home({allPostsData}) {
 
       <div className={utilStyles.buttonBox}>
       <div className={utilStyles.button}><a href="/events">RSVP for the 7/22 Campaign Meet and Greet</a></div>
-      <div className={utilStyles.button}><a href="https://airtable.com/shrBn1gZmpMaM8Oia">Sign up to Canvass</a></div>
+      <div className={utilStyles.button}><a href="https://calendar.google.com/calendar/u/0?cid=Y19kZHMwcTQxdGlsY3FiMTk2M2hqZDJpNTkyY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">Campaign Calendar</a></div>
+      <div className={utilStyles.button}><a href="https://airtable.com/shrBn1gZmpMaM8Oia">Sign up to Volunteer</a></div>
       <div className={utilStyles.button}><Link href="/sign">Request a yard sign</Link></div>
-      <div className={utilStyles.button}><Link href="/get-involved">Join the campaign</Link></div>
+      <div className={utilStyles.button}><Link href="/get-involved">Subscribe for Campaign Updates</Link></div>
+        <div className={utilStyles.button}><a href="https://shelbytlh.substack.com/">Campaign Diary</a></div>
       <div className={utilStyles.button}><a href="https://secure.actblue.com/donate/shelbytlh">Donate</a></div>     
       </div> 
 
