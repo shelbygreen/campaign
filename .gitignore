@@ -9,4 +9,7 @@ posts/050422.md
 posts/050622.md
 posts/050922.md
 posts/learning.md
-posts/*
+# posts/*
+.devcontainer/*
+.env.local
+.env
