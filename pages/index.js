@@ -100,11 +100,6 @@ export default function Home() {
       <div className={utilStyles.commentBox}>
         <Comments/>
       </div>
-      
-      {/* footer */}
-      <div className={homeStyles.footer}>
-        <center>made with <span style={{color: '#e25555'}}>&#9829;</span> by <a href="https://www.github.com/shelbygreen">shelby green</a></center>
-      </div>
     </Layout>
     </>
   )
