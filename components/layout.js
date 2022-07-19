@@ -47,7 +47,7 @@ export default function Layout({ children, home }) {
 
         {/* alert bar */}
         <div className={styles.alertBox}>
-          <a className={styles.alert} href="/townhall">RSVP to Shelby's townhall about Roe v Wade</a>
+          <a className={styles.alert} href="/events">RSVP to Shelby's Meet and Greet on 7/22, 6pm</a>
         </div>
       </header>
 

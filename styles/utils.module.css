@@ -38,7 +38,7 @@
 /* HEADSHOT CONTAINER & COMPONENTS */
 
 .headshotBox {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -48,7 +48,7 @@
 .headshot {
     /* border-radius: 50%;
     overflow: hidden; */
-    height: 250px;
+    height: 50%;
 }
 
 .bottomBox {
@@ -59,12 +59,16 @@
 /* LIST CONTAINER & COMPONENTS */
 
 .listBox {
-    padding: 1rem;
+    padding: 1.5rem;
     margin: 0rem 0.5rem 0rem 0.5rem;
 }
 
 .listBullet {
     color: #ffd478;
+}
+
+.listNumber {
+    color: #1f9390;
 }
 
 .listItem {
@@ -74,17 +78,11 @@
 }
 
 /* CONTACT FORM */
-.nameForm {
-    font-size: 17px;
-    position: absolute;
-    padding: 11px;
-    color: #83899c;
+.commentBox {
     width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    left: 0;
-    z-index: 1;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 10px;
 }
 
 /* TEXT STYLING */
@@ -257,82 +255,85 @@
     border: 1px solid;
 }
 
+/* slides containers */
+.slidesBox {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.slidesBox iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 /* MEDIA QUERIES */
 
-/* mobile S view */
-/* screen less than or equal to 320px */
-/* @media (max-width: 320px) {
-    .rowBox {
-        flex-direction: row;
+/* up to mobile L view */
+/* screen less than or equal to 425px */
+@media (max-width: 425px) {
+    .headshotBox {
+        width: 100%;
     }
-    .utilStyles.headingMdGreen {
-        font-size: 1rem;
+    .headshot {
+        border-radius: 0%;
+        overflow: hidden;
+        height: 50%;
     }
-    .utilStyles.headingMd {
-        font-size: 1rem;
-    }
-    .utilStyles.headingLgGreen {
-        font-size: 1rem;
-    }
-} */
+}
 
-/* mobile M to tablet-ish view */
-/* screen from 321px to 993px */
-/* @media (min-width: 321px) and (max-width: 993px){
-    .meet, .issues, .volunteer, .blog {
-        display: none;
+/* mobile L to tablet view */
+/* screen from 426px to 768px */
+@media (min-width: 426px) and (max-width: 1040px){
+    .headshot {
+        border-radius: 0%;
+        overflow: hidden;
+        height: 50%;
+        width: 100%;
     }
-    .navbar {
-        padding: 0.5rem 1rem 3rem 0rem;
-        height: 5vh;
+    .headshotBox {
+        /* width: 75%; */
+        padding-top: 10px;
     }
-    .logo {
-        width: 125px;
-        margin-left: 0.2rem;
-    }
-    .donateBox {
-        font-weight: 800;
-        font-size: 1.25rem;
-        margin-right: 1rem;
-        padding: 0.6rem;
-    }
-    .menu {
-        font-size: 1.25rem;
-    }
-    .alert {
-        text-align: left;
-        font-size: 1.05rem;
-    }
-} */
+}
 
 /* bigger than tablet-ish view */
-/* screen 994px & larger */
-/* @media (min-width: 994px) {
-    .meet, .issues, .volunteer, .blog {
-        font-size: 1.25rem;
-        margin-right: 1rem;
-        padding: 0.6rem;
+/* screen 769px & larger */
+@media (min-width: 1041px) and (max-width: 1600px) {
+    .headshotBox {
+        width: 100%;
+        /* height: 50%; */
     }
-    .navbar {
-        padding: 0.5rem 1rem 3rem 1rem;
-        height: 5vh;
+    .headingLgGreen {
+        font-size: 2.0rem;
     }
-    .logo {
-        width: 125px;
-        margin-left: 0.5rem;
+    .headingMdGreen {
+        font-size: 1.5rem;
     }
-    .donateBox {
-        font-weight: 800;
-        font-size: 1.25rem;
-        margin-right: 1rem;
-        /* padding: 0.6rem; */
-    /* }
-    .menu {
-        display: none;
+    .headingMd {
+        font-size: 1.5rem;
     }
-    .alert {
-        text-align: center;
-        font-size: 1.05rem;
-        padding: 0.5rem;
-    } */
-/* } */
+
+}
+
+/* really big screen */
+@media (min-width: 1601px) {
+    .headshotBox {
+        width: 100%;
+        /* height: 50%; */
+    }
+    .headingLgGreen {
+        font-size: 2.25rem;
+    }
+    .headingMdGreen {
+        font-size: 1.75rem;
+    }
+    .headingMd {
+        font-size: 1.75rem;
+    }
+
+}

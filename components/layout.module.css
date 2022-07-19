@@ -132,7 +132,7 @@
 
 /* mobile M to tablet-ish view */
 /* screen from 321px to 993px */
-@media (min-width: 321px) and (max-width: 993px){
+@media (min-width: 321px) and (max-width: 767px){
     .meet, .issues, .volunteer, .blog {
         display: none;
     }
@@ -161,7 +161,7 @@
 
 /* bigger than tablet-ish view */
 /* screen 994px & larger */
-@media (min-width: 994px) {
+@media (min-width: 768px) {
     .meet, .issues, .volunteer, .blog {
         font-size: 1.25rem;
         margin-right: 1rem;
