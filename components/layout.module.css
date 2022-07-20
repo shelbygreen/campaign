@@ -36,7 +36,7 @@
     display: block;
 }
 
-.meet, .issues, .volunteer, .blog {
+.meet, .issues, .volunteer, .blog, .sign {
     color: #209390;
     font-weight: 800;
     font-size: 24px;
@@ -111,7 +111,7 @@
 /* mobile S view */
 /* screen less than or equal to 320px */
 @media (max-width: 320px) {
-    .meet, .issues, .volunteer, .blog, .donateBox {
+    .meet, .issues, .volunteer, .blog, .donateBox, .sign {
         display: none;
     }
     .navbar {
@@ -133,7 +133,7 @@
 /* mobile M to tablet-ish view */
 /* screen from 321px to 993px */
 @media (min-width: 321px) and (max-width: 767px){
-    .meet, .issues, .volunteer, .blog {
+    .meet, .issues, .volunteer, .blog, .sign {
         display: none;
     }
     .navbar {
@@ -162,7 +162,7 @@
 /* bigger than tablet-ish view */
 /* screen 994px & larger */
 @media (min-width: 768px) {
-    .meet, .issues, .volunteer, .blog {
+    .meet, .issues, .volunteer, .blog, .sign {
         font-size: 1.25rem;
         margin-right: 1rem;
         padding: 0.6rem;
