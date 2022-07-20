@@ -53,15 +53,14 @@ export default function Home() {
 
       <div className={utilStyles.container}>
         <div className={utilStyles.buttonBox}>
-            <div className={utilStyles.button}><a href="/meet">Meet Shelby</a></div>
             <div className={utilStyles.button}><a href="/events">RSVP for the 7/22 Campaign Meet and Greet</a></div>
+            <div className={utilStyles.button}><a href="/vote">Share why you vote</a></div>
+            <div className={utilStyles.button}><a href="/meet">Meet Shelby</a></div>
             <div className={utilStyles.button}><a href="/issues">Issues</a></div>
             <div className={utilStyles.button}><a href="/volunteer">Volunteer</a></div>
-            <div className={utilStyles.button}><a href="https://calendar.google.com/calendar/u/0?cid=Y19kZHMwcTQxdGlsY3FiMTk2M2hqZDJpNTkyY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">Campaign Calendar</a></div>
-            <div className={utilStyles.button}><a href="https://airtable.com/shrBn1gZmpMaM8Oia">Sign up to Volunteer</a></div>
             <div className={utilStyles.button}><Link href="/sign">Request a yard sign</Link></div>
-            <div className={utilStyles.button}><Link href="/get-involved">Subscribe for Campaign Updates</Link></div>
-                <div className={utilStyles.button}><a href="https://shelbytlh.substack.com/">Campaign Diary</a></div>
+            <div className={utilStyles.button}><a href="https://calendar.google.com/calendar/u/0?cid=Y19kZHMwcTQxdGlsY3FiMTk2M2hqZDJpNTkyY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">Campaign Calendar</a></div>
+            <div className={utilStyles.button}><a href="https://shelbytlh.substack.com/">Campaign Diary</a></div>
             <div className={utilStyles.button}><a href="https://secure.actblue.com/donate/shelbytlh">Donate</a></div>     
         </div>
         </div>   
