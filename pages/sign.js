@@ -11,11 +11,11 @@ export default function Involved() {
                 <Head>
                     <title>request a yard sign</title>
                 </Head>
-                <p className={utilStyles.headingMd}>
-                    Support the campaign by planting a yard sign! They will help increase Shelby's visibility and name recognition. 
+                <p className={utilStyles.headingMd} style={{padding:10}}>
+                    Support the campaign by planting a yard sign! 
                 </p>
                 
-                <p className={utilStyles.headingMdGreen}>Request a yard sign by filling out the form below:</p>
+                <p className={utilStyles.headingMdGreen} style={{padding:10}}>Request a yard sign by filling out the form below:</p>
                 <iframe class="airtable-embed" src="https://airtable.com/embed/shrvddvTySL6jL26M?backgroundColor=teal" frameborder="0" onmousewheel="" width="100%" height="600" style={{border: '1px solid #ccc'}}></iframe>
 
                 

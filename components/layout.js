@@ -38,7 +38,7 @@ export default function Layout({ children, home }) {
               <a className={styles.meet} href="/meet">Meet Shelby</a>
               <a className={styles.issues} href="/issues">Issues</a>
               <a className={styles.volunteer} href="/volunteer">Volunteer</a>
-              <a className={styles.sign} href="/events">Yard Sign</a>
+              <a className={styles.sign} href="/sign">Yard Sign</a>
               <a className={styles.blog} href="https://shelbytlh.substack.com">Diary</a>
               <a href="https://secure.actblue.com/donate/shelbytlh" className={styles.donateBox}>Donate</a>
               <a className={styles.menu} href="/menu">Menu</a>
