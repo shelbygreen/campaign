@@ -1,180 +1,179 @@
 .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* MAIN CONTAINERS & COMPONENTS */
 
 .rowBox {
-    display: flex;
-    /* flex-wrap: flex;
+  display: flex;
+  /* flex-wrap: flex;
     flex-direction: row; */
-    margin-right: -15px;
-    margin-left: -15px;
-    padding: 1rem;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 1rem;
 }
 
 .leftBox {
-    /* display: flex; */
-    color: #1f9390;
-    width: 75%;
-    /* background-color: red; */
+  /* display: flex; */
+  color: #1f9390;
+  width: 75%;
+  /* background-color: red; */
 }
 
 .leftBoxTextContainer {
-    word-break: break-word!important;
-    overflow-wrap: break-word!important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
 }
 
 .rightBox {
-    flex-flow: column nowrap;
-    width: 50%;
+  flex-flow: column nowrap;
+  width: 50%;
 }
-
 
 /* HEADSHOT CONTAINER & COMPONENTS */
 
 .headshotBox {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .headshot {
-    /* border-radius: 50%;
+  /* border-radius: 50%;
     overflow: hidden; */
-    height: 50%;
+  height: 50%;
 }
 
 .bottomBox {
-    /* background-color: purple; */
-    height: 50%;
+  /* background-color: purple; */
+  height: 50%;
 }
 
 /* LIST CONTAINER & COMPONENTS */
 
 .listBox {
-    padding: 1.5rem;
-    margin: 0rem 0.5rem 0rem 0.5rem;
+  padding: 1.5rem;
+  margin: 0rem 0.5rem 0rem 0.5rem;
 }
 
 .listBullet {
-    color: #ffd478;
+  color: #ffd478;
 }
 
 .listNumber {
-    color: #1f9390;
+  color: #1f9390;
 }
 
 .listItem {
-    color: #666;
-    line-height: 1.2rem;
-    /* margin: 5px; */
+  color: #666;
+  line-height: 1.2rem;
+  /* margin: 5px; */
 }
 
 /* CONTACT FORM */
 .commentBox {
-    width: 100%;
-    /* display: flex; */
-    /* flex-direction: column; */
-    padding: 10px;
+  width: 100%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding: 10px;
 }
 
 /* TEXT STYLING */
 
 .heading2Xl {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    font-weight: 800;
-    letter-spacing: -0.05rem;
-    margin: 1rem 0;
-    color: #1f9390;
-    border-bottom: 5px solid #ffd478;
-    display: inline-block;
-    vertical-align: top;
-    /* border-color: #ffd478;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+  color: #1f9390;
+  border-bottom: 5px solid #ffd478;
+  display: inline-block;
+  vertical-align: top;
+  /* border-color: #ffd478;
     border-bottom-width: 2px;
     border: 0 solid #e2e8f0 */
 }
-  
+
 .headingXl {
-    font-size: 1.25rem;
-    line-height: 1.3;
-    font-weight: 800;
-    letter-spacing: -0.05rem;
-    margin: 1rem 0;
-    color: #666;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+  color: #666;
 }
-  
+
 .headingLg {
-    font-size: 1.5rem;
-    line-height: 1.4;
-    margin: 1rem 0;
-    color: #666;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+  color: #666;
 }
 
 .headingLgGreen {
-    font-size: 1.6rem;
-    line-height: 1.5;
-    color: #1f9390;
-    font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #1f9390;
+  font-weight: 600;
 }
 
 .headingMd {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #666;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #666;
 }
 
 .headingMdGreen {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #1f9390;
-    font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #1f9390;
+  font-weight: 600;
 }
 
 .headingMdYellow {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #ffd478;
-    font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #ffd478;
+  font-weight: 600;
 }
 
 .headingSm {
-    font-size: 1.0rem;
-    line-height: 1.0;
-    color: #666;
+  font-size: 1rem;
+  line-height: 1;
+  color: #666;
 }
 
 .blurb {
-    font-size: 2rem;
-    line-height: 1.4;
-    margin: 1rem 0;
-    color: #1f9390;
+  font-size: 2rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+  color: #1f9390;
 }
 
 .tiny {
-    font-size: 1rem;
-    line-height: 1.5;
-    text-align: center;
-    color: #1f9390;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #1f9390;
 }
 
 .borderCircle {
-    border-radius: 9999px;
+  border-radius: 9999px;
 }
 
 .colorInherit {
-    color: inherit;
+  color: inherit;
 }
 
 .padding1px {
-    padding-top: 1px;
+  padding-top: 1px;
 }
 
 /* .list {
@@ -188,19 +187,19 @@
 } */
 
 .lightText {
-    color: #666;
+  color: #666;
 }
 
 /* button box component */
 .buttonBox {
-    /* display: flex; */
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 40px;
-} 
+  /* display: flex; */
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
 
 /* button component */
 .button {
@@ -221,54 +220,54 @@
 
 /* bike week styling */
 .eventTitle {
-    font-size: 1.8rem;
-    line-height: 1.4;
-    margin: 0rem 0;
-    color: #1f9390;
-    text-transform: uppercase;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin: 0rem 0;
+  color: #1f9390;
+  text-transform: uppercase;
 }
 
 .eventBox {
-    display: inline-block;
-    font-size: 22px;
-    border: 1px solid #ffffff;
-    background-color: hsl(41, 100%, 74%, 0.5);
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
+  display: inline-block;
+  font-size: 22px;
+  border: 1px solid #ffffff;
+  background-color: hsl(41, 100%, 74%, 0.5);
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 .eventBoxText {
-    margin-left: 5px;
-    text-align: left;
-    color: #666;
-    padding-top: 0px;
-    font-weight: 600;
+  margin-left: 5px;
+  text-align: left;
+  color: #666;
+  padding-top: 0px;
+  font-weight: 600;
 }
 
 .eventFlyer {
-    width: 100%;
+  width: 100%;
 }
 
 /* table component */
 .table {
-    border: 1px solid;
+  border: 1px solid;
 }
 
 /* slides containers */
 .slidesBox {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25px;
-    height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
 }
 
 .slidesBox iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* MEDIA QUERIES */
@@ -276,64 +275,62 @@
 /* up to mobile L view */
 /* screen less than or equal to 425px */
 @media (max-width: 425px) {
-    .headshotBox {
-        width: 100%;
-    }
-    .headshot {
-        border-radius: 0%;
-        overflow: hidden;
-        height: 50%;
-    }
+  .headshotBox {
+    width: 100%;
+  }
+  .headshot {
+    border-radius: 0%;
+    overflow: hidden;
+    height: 50%;
+  }
 }
 
 /* mobile L to tablet view */
 /* screen from 426px to 768px */
-@media (min-width: 426px) and (max-width: 1040px){
-    .headshot {
-        border-radius: 0%;
-        overflow: hidden;
-        height: 50%;
-        width: 100%;
-    }
-    .headshotBox {
-        /* width: 75%; */
-        padding-top: 10px;
-    }
+@media (min-width: 426px) and (max-width: 1040px) {
+  .headshot {
+    border-radius: 0%;
+    overflow: hidden;
+    height: 50%;
+    width: 100%;
+  }
+  .headshotBox {
+    /* width: 75%; */
+    padding-top: 10px;
+  }
 }
 
 /* bigger than tablet-ish view */
 /* screen 769px & larger */
 @media (min-width: 1041px) and (max-width: 1600px) {
-    .headshotBox {
-        width: 100%;
-        /* height: 50%; */
-    }
-    .headingLgGreen {
-        font-size: 2.0rem;
-    }
-    .headingMdGreen {
-        font-size: 1.5rem;
-    }
-    .headingMd {
-        font-size: 1.5rem;
-    }
-
+  .headshotBox {
+    width: 100%;
+    /* height: 50%; */
+  }
+  .headingLgGreen {
+    font-size: 2rem;
+  }
+  .headingMdGreen {
+    font-size: 1.5rem;
+  }
+  .headingMd {
+    font-size: 1.5rem;
+  }
 }
 
 /* really big screen */
 @media (min-width: 1601px) {
-    .headshotBox {
-        width: 100%;
-        /* height: 50%; */
-    }
-    .headingLgGreen {
-        font-size: 2.25rem;
-    }
-    .headingMdGreen {
-        font-size: 1.75rem;
-    }
-    .headingMd {
-        font-size: 1.75rem;
-    }
-
+  .headshotBox {
+    width: 100%;
+    /* height: 50%; */
+  }
+  .headingLgGreen {
+    font-size: 2.25rem;
+  }
+  .headingMdGreen {
+    font-size: 1.75rem;
+  }
+  .headingMd {
+    font-size: 1.75rem;
+  }
 }
