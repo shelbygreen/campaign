@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     "appKvrQAQ2MZ8hKrW"
   );
 
-  base("Table 1").create(
+  base("Interested").create(
     [
       {
         fields: {
