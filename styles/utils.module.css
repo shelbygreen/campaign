@@ -204,7 +204,7 @@
 /* button component */
 .button {
   display: inline-block;
-  font-size: 22px;
+  font-size: 19px;
   border: 1px solid #ffffff;
   background-color: #ffd478;
   border-radius: 3px;
@@ -216,6 +216,11 @@
   color: #666;
   padding-top: 10px;
   font-weight: 600;
+}
+
+.button:hover {
+  background-color: #1f9390; /* Green */
+  color: white;
 }
 
 /* bike week styling */

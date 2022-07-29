@@ -1,4 +1,4 @@
-import { Box, Button, Drawer, useMantineTheme } from "@mantine/core";
+import { Box, Button, Center, Drawer, useMantineTheme } from "@mantine/core";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -60,9 +60,6 @@ export default function Layout({ children, home }) {
               >
                 Donate
               </a>
-              <a className={styles.menu} href="/menu">
-                Menu
-              </a>
               <Drawer
                 opened={opened}
                 onClose={() => setOpened(false)}
@@ -74,60 +71,67 @@ export default function Layout({ children, home }) {
                 overlayOpacity={0.55}
                 overlayBlur={3}
                 position="right"
-                size="45%"
+                size="75%"
               >
                 {/* Drawer content */}
-                <Box className={utilStyles.buttonBox} mx={10}>
-                  <Button className={utilStyles.button}>
-                    <Link href="/events" passHref>
-                      RSVP for the 7/22 Campaign Meet and Greet
-                    </Link>
-                  </Button>
-                  <Button className={utilStyles.button}>
+                <Center>
+                  <Image src={logo} />
+                </Center>
+                <Box mx={10} mt={20}>
+                  <Center>
                     <Link href="/vote" passHref>
-                      Share why you vote
+                      <Button className={utilStyles.button}>
+                        Share why you vote
+                      </Button>
                     </Link>
-                  </Button>
-                  <Button className={utilStyles.button}>
+                  </Center>
+                  <Center>
                     <Link href="/meet" passHref>
-                      Meet Shelby
+                      <Button className={utilStyles.button}>Meet Shelby</Button>
                     </Link>
-                  </Button>
-                  <Button className={utilStyles.button}>
+                  </Center>
+                  <Center>
                     <Link href="/issues" passHref>
-                      Issues
+                      <Button className={utilStyles.button}>Issues</Button>
                     </Link>
-                  </Button>
-                  <Button className={utilStyles.button}>
+                  </Center>
+                  <Center>
                     <Link href="/volunteer" passHref>
-                      Volunteer
+                      <Button className={utilStyles.button}>Volunteer</Button>
                     </Link>
-                  </Button>
-                  <Link href="/sign" passHref>
-                    <Button className={utilStyles.button}>
-                      Request a yard sign
-                    </Button>
-                  </Link>
-                  <Link
-                    href="https://calendar.google.com/calendar/u/0?cid=Y19kZHMwcTQxdGlsY3FiMTk2M2hqZDJpNTkyY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
-                    passHref
-                  >
-                    <Button className={utilStyles.button}>
-                      Campaign Calendar
-                    </Button>
-                  </Link>
-                  <Link href="https://shelbytlh.substack.com/" passHref>
-                    <Button className={utilStyles.button}>
-                      Campaign Diary
-                    </Button>
-                  </Link>
-
-                  <Link
-                    href="https://secure.actblue.com/donate/shelbytlh"
-                    passHref
-                  >
-                    <Button className={utilStyles.button}>Donate</Button>
-                  </Link>
+                  </Center>
+                  <Center>
+                    <Link href="/sign" passHref>
+                      <Button className={utilStyles.button}>
+                        Request a yard sign
+                      </Button>
+                    </Link>
+                  </Center>
+                  <Center>
+                    <Link
+                      href="https://calendar.google.com/calendar/u/0?cid=Y19kZHMwcTQxdGlsY3FiMTk2M2hqZDJpNTkyY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+                      passHref
+                    >
+                      <Button className={utilStyles.button}>
+                        Campaign Calendar
+                      </Button>
+                    </Link>
+                  </Center>
+                  <Center>
+                    <Link href="https://shelbytlh.substack.com/" passHref>
+                      <Button className={utilStyles.button}>
+                        Campaign Diary
+                      </Button>
+                    </Link>
+                  </Center>
+                  <Center>
+                    <Link
+                      href="https://secure.actblue.com/donate/shelbytlh"
+                      passHref
+                    >
+                      <Button className={utilStyles.button}>Donate</Button>
+                    </Link>
+                  </Center>
                 </Box>
               </Drawer>
               <Button

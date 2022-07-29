@@ -1,15 +1,18 @@
 @font-face {
-  font-family: 'Canela';
-  src: local('Canela'), url(../public/fonts/canela.otf) format('opentype');
-  font-family: 'Graphik';
-  src: local('Graphik'), url(../public/fonts/GraphikRegular.otf) format('opentype');
+  font-family: "Canela";
+  src: local("Canela"), url(../public/fonts/canela.otf) format("opentype");
+  font-family: "Graphik";
+  src: local("Graphik"),
+    url(../public/fonts/GraphikRegular.otf) format("opentype");
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   /* font-family: -apple-system, BlinkMacSystemFont, Canela, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   background: #ffffff;
@@ -32,4 +35,3 @@ img {
   max-width: 100%;
   display: block;
 }
-
