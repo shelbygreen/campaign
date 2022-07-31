@@ -8,7 +8,7 @@ export default function Events() {
                 <Head>
                     <title>events</title>
                 </Head>
-                <iframe class="airtable-embed" src="https://airtable.com/embed/shr8y5m71vbfu1p8t?backgroundColor=teal" frameborder="0" onmousewheel="" width="100%" height="600" style={{border: '1px solid #ccc'}}></iframe>
+                <iframe class="airtable-embed" src="https://airtable.com/embed/shrCS2nz4j9HYTXJK?backgroundColor=teal" frameborder="0" onmousewheel="" width="100%" height="600" style={{border: '1px solid #ccc'}}></iframe>
             </Layout>
         </>
     )
