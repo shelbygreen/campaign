@@ -53,7 +53,7 @@ export default function Home() {
 
       <div className={utilStyles.container}>
         <div className={utilStyles.buttonBox}>
-            <div className={utilStyles.button}><a href="/events">RSVP for the 7/22 Campaign Meet and Greet</a></div>
+            <div className={utilStyles.button}><a href="/events">RSVP for our Townhall on Housing</a></div>
             <div className={utilStyles.button}><a href="/vote">Share why you vote</a></div>
             <div className={utilStyles.button}><a href="/meet">Meet Shelby</a></div>
             <div className={utilStyles.button}><a href="/issues">Issues</a></div>
