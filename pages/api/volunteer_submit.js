@@ -18,17 +18,13 @@ export default async function handler(req, res) {
     );
 
     base("Interested").create(
-      [
-        {
-          fields: {
-            Name: name,
-            "Phone Number": phone_number,
-            "Email Address": email,
-            Options: multi_select,
-            "If you said other, share how you'd like to help:": other,
-          },
-        },
-      ],
+      {
+        Name: name,
+        "Phone Number": phone_number,
+        "Email Address": email,
+        Options: multi_select,
+        "If you said other, share how you'd like to help:": other,
+      },
       function (err, record) {
         if (err) {
           console.error(err);
