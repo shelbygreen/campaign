@@ -11,5 +11,4 @@ posts/050922.md
 posts/learning.md
 # posts/*
 .devcontainer/*
-.env.local
-.env
+.env*

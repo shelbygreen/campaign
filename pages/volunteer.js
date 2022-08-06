@@ -126,7 +126,7 @@ export default function Volunteer() {
                 placeholder=""
                 {...submitForm.getInputProps("other")}
               />
-              <Group possition="right" mt="md">
+              <Group position="right" mt="md">
                 <Button type="submit">Submit</Button>
               </Group>
             </form>
