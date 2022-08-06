@@ -10,7 +10,8 @@ import { useForm } from "@mantine/form";
 import { showNotification } from "@mantine/notifications";
 import Head from "next/head";
 import Layout from "../components/layout";
-export default function Volunteer() {
+
+export default function Sign() {
   const submitForm = useForm({
     initialValues: {
       name: "",
