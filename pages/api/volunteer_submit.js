@@ -11,33 +11,37 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  var Airtable = require("airtable");
-  var base = new Airtable({ apiKey: process.env.AIRTABLE_TOKEN }).base(
-    "appKvrQAQ2MZ8hKrW"
-  );
+  try {
+    var Airtable = require("airtable");
+    var base = new Airtable({ apiKey: process.env.AIRTABLE_TOKEN }).base(
+      "appKvrQAQ2MZ8hKrW"
+    );
 
-  base("Interested").create(
-    [
-      {
-        fields: {
-          Name: name,
-          "Phone Number": phone_number,
-          "Email Address": email,
-          Options: multi_select,
-          "If you said other, share how you'd like to help:": other,
+    base("Interested").create(
+      [
+        {
+          fields: {
+            Name: name,
+            "Phone Number": phone_number,
+            "Email Address": email,
+            Options: multi_select,
+            "If you said other, share how you'd like to help:": other,
+          },
         },
-      },
-    ],
-    function (err, record) {
-      if (err) {
-        console.error(err);
-        return res
-          .status(400)
-          .json({ error: "Something went wrong", message: res.body });
+      ],
+      function (err, record) {
+        if (err) {
+          console.error(err);
+          return res
+            .status(400)
+            .json({ error: "Something went wrong", message: res.body });
+        }
+        console.log(record.getId());
       }
-      console.log(record.getId());
-    }
-  );
+    );
 
-  return res.status(200).json({ data: "ok" });
+    return res.status(200).json({ data: "ok" });
+  } catch (error) {
+    return res.status(500).json({ error: error.message });
+  }
 }
