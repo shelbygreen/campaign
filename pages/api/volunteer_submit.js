@@ -28,16 +28,14 @@ export default async function handler(req, res) {
         },
       },
     ],
-    function (err, records) {
+    function (err, record) {
       if (err) {
         console.error(err);
         return res
           .status(400)
           .json({ error: "Something went wrong", message: res.body });
       }
-      records.forEach(function (record) {
-        console.log(record.getId());
-      });
+      console.log(record.getId());
     }
   );
 
