@@ -148,7 +148,7 @@ export default function Layout({ children, home }) {
         {/* alert bar */}
         <div className={styles.alertBox}>
           <a className={styles.alert} href="/events">
-            RSVP to Shelby's Meet and Greet on 7/22, 6pm
+            RSVP to Shelby's Townhall on Housing & Displacement
           </a>
         </div>
       </header>

@@ -101,10 +101,15 @@ export default function Volunteer() {
                 required
                 data={[
                   "Other",
-                  "Tabling (setting up a table & talking to supporters)",
-                  "Planning campaign events (townhalls, socials, fundraisers)",
-                  "Canvassing (knocking on doors & talking to supporters)",
-                  "Phone banking (calling supporters)",
+                  "Phone banking",
+                  "Canvassing",
+                  "Planning townhalls",
+                  "Tabling",
+                  "Flyering",
+                  "Shooting or editing videos",
+                  "Data entry",
+                  "Forum prep",
+                  "Editing/writing",
                 ]}
                 label="I want to help by... "
                 placeholder="Pick all that you like"
@@ -121,7 +126,7 @@ export default function Volunteer() {
                 placeholder=""
                 {...submitForm.getInputProps("other")}
               />
-              <Group possition="right" mt="md">
+              <Group position="right" mt="md">
                 <Button type="submit">Submit</Button>
               </Group>
             </form>
