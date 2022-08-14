@@ -3,190 +3,207 @@
 }
 
 .header {
-    /* display: flex;
+  /* display: flex;
     flex-direction: column;
     align-items: left;
     font-family: Canela; */
-    width: 100%;
+  width: 100%;
 }
 
 /* NAVIGATION BAR & COMPONENTS */
 
 .nav {
-    display: block;
-    background-color: white;
-    padding: 0.5rem;
-    width: 100%;
-    box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
-    z-index: 99;
-    position: relative;
+  display: block;
+  background-color: white;
+  padding: 0.5rem;
+  width: 100%;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+  z-index: 99;
+  position: relative;
 }
 
 .navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0rem 1rem 0rem 1rem;
-    height: 10vh;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem 0rem 1rem;
+  height: 10vh;
 }
 
 .navbarItems {
-    display: block;
+  display: block;
 }
 
-.meet, .issues, .volunteer, .blog, .sign {
-    color: #209390;
-    font-weight: 800;
-    font-size: 24px;
+.meet,
+.issues,
+.volunteer,
+.blog,
+.sign {
+  color: #209390;
+  font-weight: 800;
+  font-size: 24px;
 }
 
 .logo {
-    width: 10%;
+  width: 10%;
 }
 
 .donateBox {
-    text-align: center;
-    text-decoration: none;
-    border-radius: 4px;
-    color: #666;
-    padding: 0.8rem;
-    background-color: #FFD478;
-    border-color: #FFD478;
-    font-weight: 800;
-    font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #666;
+  padding: 0.8rem;
+  background-color: #ffd478;
+  border-color: #ffd478;
+  font-weight: 800;
+  font-size: 24px;
 }
 
 .menu {
-    color: #209390;
-    font-weight: 800;
-    font-size: 24px;
+  color: #209390;
+  font-weight: 800;
+  font-size: 24px;
 }
 
 /* ALERT BAR & COMPONENT */
 
 .alertBox {
-    display: block;
-    background-color: #FFD478;
-    width: 100%;
-    padding: 0.5rem;
+  display: block;
+  background-color: #ffd478;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 .alert {
-    color: #666666;
-    font-weight: 600;
-    text-align: center;
-    font-size: 1rem;
+  color: #666666;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1rem;
 }
 
 /* footer */
 
 .footer {
-    display: flex;
-    flex: 1;
-    padding: 2rem 0;
-    border-top: 1px solid #eaeaea;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
 }
-  
+
 .footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    color: #1f9390;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  color: #1f9390;
 }
 
 /* MISC. */
 
 .backToHome {
-    margin: 3rem 0 0;
-    color: #f5be48;
+  margin: 3rem 0 0;
+  color: #f5be48;
 }
 
 /* MEDIA QUERIES */
 
 /* mobile S view */
 /* screen less than or equal to 320px */
-@media (max-width: 320px) {
-    .meet, .issues, .volunteer, .blog, .donateBox, .sign {
-        display: none;
-    }
-    .navbar {
-        padding: 0.5rem 0.5rem 2.5rem 0.5rem;
-        height: 5vh;
-    }
-    .logo {
-        width: 30vw;
-    }
-    .menu {
-        font-size: 1.25rem;
-    }
-    .alert {
-        text-align: left;
-        font-size: 0.85rem;
-    }
+@media (max-width: 361px) {
+  .meet,
+  .issues,
+  .volunteer,
+  .blog,
+  .donateBox,
+  .sign {
+    display: none;
+  }
+  .navbar {
+    padding: 0.5rem 0.5rem 2.5rem 0.5rem;
+    height: 5vh;
+  }
+  .logo {
+    width: 30vw;
+  }
+  .menu {
+    font-size: 1.25rem;
+  }
+  .alert {
+    text-align: left;
+    font-size: 0.85rem;
+  }
 }
 
 /* mobile M to tablet-ish view */
 /* screen from 321px to 993px */
-@media (min-width: 321px) and (max-width: 767px){
-    .meet, .issues, .volunteer, .blog, .sign {
-        display: none;
-    }
-    .navbar {
-        padding: 0.5rem 1rem 3rem 0rem;
-        height: 5vh;
-    }
-    .logo {
-        width: 125px;
-        margin-left: 0.2rem;
-    }
-    .donateBox {
-        font-weight: 800;
-        font-size: 1.25rem;
-        margin-right: 1rem;
-        padding: 0.6rem;
-    }
-    .menu {
-        font-size: 1.25rem;
-    }
-    .alert {
-        text-align: left;
-        font-size: 1.05rem;
-    }
+@media (min-width: 361px) and (max-width: 907px) {
+  .meet,
+  .issues,
+  .volunteer,
+  .blog,
+  .sign {
+    display: none;
+  }
+  .navbar {
+    padding: 0.5rem 1rem 3rem 0rem;
+    height: 5vh;
+  }
+  .logo {
+    width: 125px;
+    margin-left: 0.2rem;
+  }
+  .donateBox {
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    padding: 0.6rem;
+  }
+  .menu {
+    font-size: 1.25rem;
+  }
+  .alert {
+    text-align: left;
+    font-size: 1.05rem;
+  }
 }
 
 /* bigger than tablet-ish view */
 /* screen 994px & larger */
-@media (min-width: 768px) {
-    .meet, .issues, .volunteer, .blog, .sign {
-        font-size: 1.25rem;
-        margin-right: 1rem;
-        padding: 0.6rem;
-    }
-    .navbar {
-        padding: 0.5rem 1rem 3rem 1rem;
-        height: 5vh;
-    }
-    .logo {
-        width: 125px;
-        margin-left: 0.5rem;
-    }
-    .donateBox {
-        font-weight: 800;
-        font-size: 1.25rem;
-        margin-right: 1rem;
-        /* padding: 0.6rem; */
-    }
-    .menu {
-        display: none;
-    }
-    .alert {
-        text-align: center;
-        font-size: 1.05rem;
-        padding: 0.5rem;
-    }
+@media (min-width: 907px) {
+  .meet,
+  .issues,
+  .volunteer,
+  .blog,
+  .sign {
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    padding: 0.6rem;
+  }
+  .navbar {
+    padding: 0.5rem 1rem 3rem 1rem;
+    height: 5vh;
+  }
+  .logo {
+    width: 125px;
+    margin-left: 0.5rem;
+  }
+  .donateBox {
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    /* padding: 0.6rem; */
+  }
+  .menu {
+    display: none;
+  }
+  .alert {
+    text-align: center;
+    font-size: 1.05rem;
+    padding: 0.5rem;
+  }
 }
