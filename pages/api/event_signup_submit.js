@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
-  const { name, phone_number, signs, address, notes } = req.body;
+  const { name, phone_number, date, location, event_name } = req.body;
 
-  if (!name || !phone_number || !signs || !address) {
+  if (!name || !phone_number) {
     res
       .status(400)
       .json({ error: "Please fill out all fields", data: req.body });
@@ -14,48 +14,18 @@ export default async function handler(req, res) {
   }
 
   try {
-    // var Airtable = require("airtable");
-    // var base = new Airtable({ apiKey: process.env.AIRTABLE_TOKEN }).base(
-    //   "appnIm62g2ojrcOL1"
-    // );
-
-    // base("Table 1").create(
-    //   [
-    //     {
-    //       fields: {
-    //         Name: name,
-    //         Address: address,
-    //         "Phone Number": phone_number,
-    //         Notes: notes,
-    //         "Number of Yard Signs": signs,
-    //       },
-    //     },
-    //   ],
-    //   function (err, records) {
-    //     if (err) {
-    //       console.error(err);
-    //       return res
-    //         .status(400)
-    //         .json({ error: "Something went wrong", message: res.body });
-    //     }
-    //     records.forEach(function (record) {
-    //       console.log(record.getId());
-    //     });
-    //   }
-    // );
-
     const data_to_send = {
       fields: {
         Name: name,
-        Address: address,
         "Phone Number": phone_number,
-        Notes: notes,
-        "Number of Yard Signs": signs,
+        Event: event_name,
+        Date: date,
+        Location: location,
       },
     };
 
     const raw_data = await fetch(
-      "https://api.airtable.com/v0/appnIm62g2ojrcOL1/Table%201",
+      "https://api.airtable.com/v0/app6nqndMXyGM7YST/Event%20Signup",
       {
         method: "Post",
         body: JSON.stringify(data_to_send),
