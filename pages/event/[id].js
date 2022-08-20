@@ -110,10 +110,13 @@ const Event = ({ records, data }) => {
 export default Event;
 
 export async function getServerSideProps(ctx) {
-  const absoluteUrl =
-    process.env.NODE_ENV === "development"
-      ? "http://localhost:3000"
-      : "https://shelbytlh.com";
+  var absoluteUrl = "https://shelbytlh.com";
+  if (process.env.NODE_ENV === "development") {
+    absoluteUrl = "http://localhost:3000";
+  }
+  if (process.env.NODE_ENV === "staging") {
+    absoluteUrl = "https://campaign-staging-psi.vercel.app";
+  }
 
   const rawData = await fetch(`${absoluteUrl}/api/get_event_by_id`, {
     method: "POST",
