@@ -36,7 +36,10 @@ export default function Home() {
             I’m a <a href="https://www.tallahassee.com/story/news/local/2022/03/16/shelby-green-data-engineer-and-neighborhood-advocate-files-run-city-commission/7047536001/" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded">recovering politician</a> in Tallahassee, FL, where I work as a researcher and independent software developer.
             </p>
             <p className="mb-5">
-            I'm constantly thinking about how to use (open) data to improve public participation and action. I'll forever dare to dream of a better world that’s sustainable and open for all.
+            🧠: how to use (open) data and technology to improve self-organization, public participation, and action. 
+            </p>
+            <p className="mb-5">
+            ☁️: a better world that’s sustainable and open for all.
             </p>
             <p>
               Get in touch: <a href="shelby@shelbytlh.com" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded">email</a>, <a href="https://www.twitter.com/shelbyjgreen" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded">Twitter</a>, <a href="https://www.instagram.com/shelbytlh" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded">Instagram</a>.
