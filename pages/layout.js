@@ -1,5 +1,5 @@
 // These styles apply to every route in the application
-import './globals.css';
+import '../styles/globals.css';
  
 export const metadata = {
   title: 'Shelby Green',
