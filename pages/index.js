@@ -6,7 +6,7 @@ export default function Home() {
     {/* header */}
       <Head>
         <title>Shelby Green</title>
-        <meta name='description' content='Shelby is a recovering politician, researcher, and software developer in Tallahasse, Florida.' />
+        <meta name='description' content='Shelby Green is a recovering politician, researcher, and software developer in Tallahasse, Florida.' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/images/sunflower.png'  />
       </Head>
@@ -17,7 +17,7 @@ export default function Home() {
         {/* header -- navigation bar */}
         <header className="relative z-20 flex justify-between items-center pt-12">
           <div className="flex block items-center w-full justify-center">
-            <a href="/" className="md:absolute md:left-0 md:ml-12 no-underline font-bold text-xl font-semiboldeading-none border-b-2 border-[#209390]">Shelby Green</a>
+            <a href="/" className="md:absolute md:left-0 md:ml-12 hover:no-underline font-bold text-xl font-semiboldeading-none border-b-2 border-[#209390]">Shelby Green</a>
           </div>
         </header>
 
@@ -33,16 +33,19 @@ export default function Home() {
             Hi, I’m Shelby!
             </p>
             <p className="mb-5">
-            I’m a <a href="https://www.tallahassee.com/story/news/local/2022/03/16/shelby-green-data-engineer-and-neighborhood-advocate-files-run-city-commission/7047536001/" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded">recovering politician</a> in Tallahassee, FL, where I work as a researcher and independent software developer.
+            I’m a <a href="https://www.tallahassee.com/story/news/local/2022/03/16/shelby-green-data-engineer-and-neighborhood-advocate-files-run-city-commission/7047536001/" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">recovering politician</a> in Tallahassee, FL, where I work as a researcher and independent software developer.
             </p>
             <p className="mb-5">
-            🧠: how to use (open) data and technology to improve self-organization, public participation, and action. 
+            Although my career in politics is on pause, I'm still heavily involved and am currently starting up a <a href="https://www.opentlh.com" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">digital publication</a> to increase public participation here. 
             </p>
             <p className="mb-5">
-            ☁️: a better world that’s sustainable and open for all.
+            I'm forever dreaming of an open and sustainable world. Maybe one day we'll get there!
+            </p>
+            <p className="mb-5">
+            🚲🪴🍊⚡️
             </p>
             <p>
-              Get in touch: <a href="shelby@shelbytlh.com" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded">email</a>, <a href="https://www.twitter.com/shelbyjgreen" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded">Twitter</a>, <a href="https://www.instagram.com/shelbytlh" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded">Instagram</a>.
+              Let's connect: <a href="mailto:shelby@shelbytlh.com" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">email</a>, <a href="https://www.twitter.com/shelbyjgreen" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">Twitter</a>, <a href="https://www.instagram.com/shelbytlh" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">Instagram</a>.
             </p>
           </div>
         </main>
