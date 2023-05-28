@@ -39,13 +39,13 @@ export default function Home() {
             Although my career in politics is on pause, I'm still heavily involved and am currently starting up a <a href="https://www.opentlh.com" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">digital publication</a> to increase public participation here. 
             </p>
             <p className="mb-5">
-            I'm forever dreaming of an open and sustainable world. Maybe one day we'll get there!
+            The world is chaotic, but I'm forever dreaming of an open and sustainable world. Maybe one day we'll get there!
             </p>
             <p className="mb-5">
             🚲🪴🍊⚡️
             </p>
             <p>
-              Let's connect: <a href="mailto:shelby@shelbytlh.com" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">email</a>, <a href="https://www.twitter.com/shelbyjgreen" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">Twitter</a>, <a href="https://www.instagram.com/shelbytlh" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">Instagram</a>.
+            Let's connect!: <a href="https://docs.google.com/document/d/1mKwyL2yDOgarAfowN48Qq77ti_mQKs0eWuPWNj1daHQ/edit?usp=sharing" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">resumé</a>, <a href="mailto:shelby@shelbytlh.com" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">email</a>, <a href="https://www.twitter.com/shelbyjgreen" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">Twitter</a>, <a href="https://www.instagram.com/shelbytlh" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">Instagram</a>.
             </p>
           </div>
         </main>
