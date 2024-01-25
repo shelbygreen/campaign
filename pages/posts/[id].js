@@ -12,13 +12,13 @@ export default function Post({ postData }) {
         </Head>
 
         {/* content */}
-        <main className="md:mt-8 lg:mt-12 relative">
-            <article className="px-4 md:px-12 lg:px-0 w-full lg:w-3/5 xl:w-1/2 lg:mx-auto my-24">
-                <h1 className="text-2xl lg:text-4xl font-bold">{postData.title}</h1>
-                <div className={utilStyles.lightText}>
-                    <Date dateString={postData.date} />
+        <main className="px-4 md:px-12 lg:px-0 w-full lg:w-3/5 xl:w-1/2 lg:mx-auto my-24">
+            <article>
+                <h1 className="text-2xl lg:text-4xl font-bold text-vgreen">{postData.title}</h1>
+                <div className="text-lg md:text-xl font-bold">
+                    <Date dateString={postData.date}/>
                 </div>
-                <div className="markdown-body mt-8" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                <div className="mt-4 leading-normal text-lg md:text-xl mr-1" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             </article>
         </main>
     </Layout>

@@ -9,6 +9,8 @@ module.exports = {
       colors: {
         'vgreen': '#209390',
         'cyellow': '#FFD478',
+        'agreen': '#1f9390',
+        'darkyellow': '#D7B364',
       },
     },
   },

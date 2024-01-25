@@ -34,29 +34,31 @@ export default function About({allPostsData}) {
                 {/* small bio */}
                 <div className="sm:w-2/4 mx-auto text-center text-lg lg:text-lg font-semibold text-gray-700 mt-4">
                     <p className="mb-5">
-                    Hi, I’m Shelby!
-                    </p>
-                    <p className="mb-5">
-                    I’m a <a href="https://www.tallahassee.com/story/news/local/2022/03/16/shelby-green-data-engineer-and-neighborhood-advocate-files-run-city-commission/7047536001/" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">recovering politician</a> in Tallahassee, FL, where I work as a researcher and independent software developer.
-                    </p>             
+                    I've written about:</p>
                 </div>
                 </main>
 
                 {/* blog posts */}
-                <section className="ml-8">
-                    <ul className="text-lg lg:text-lg font-semibold text-gray-700">
+                <section className="mt-12 md:w-3/4 lg:w-3/5 xl:w-1/2 px-4 sm:px-12 lg:px-0 mx-auto">
+                    <ul>
                     {allPostsData.filter(obj => { return obj.tag == 'blog';}).map(({ id, date, title, blurb }) => (
-                        <li className={utilStyles.headingLg} key={id}>
+                        <li className="mb-12" key={id}>
                             <Link href={`/posts/${id}`}>
-                                <a>{title}</a>
+                                <a className="text-lg md:text-2xl font-bold leading-snug mb-4 text-vgreen">{title}</a>
                             </Link>
                             <br />
-                            <small className={utilStyles.headingLg}>
-                                <Date dateString={date} />
-                                <div>{blurb}</div>
+                            <small>
+                                {/* <Date className={utilStyles.headingMd} dateString={date} /> */}
+                                <div className="leading-normal text-lg md:text-xl mr-1">{blurb}</div>
                             </small>
+                            <div className="block no-underline md:text-xl text-darkyellow mt-2">
+                                <Link href={`/posts/${id}`}>
+                                <a>Read More →</a>
+                                </Link>
+                            </div>
                         </li>
-                    ))}
+                    ))
+                    }
                     </ul>
                 </section>
                 </body>
