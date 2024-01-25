@@ -8,7 +8,9 @@ export default function Platform() {
                 <Head>
                     <title>platform</title>
                 </Head>
-                WIP!!!
+                1. Whole Homes - helping families work their way towards self-sufficiency
+                2. Zero Disconnections - cutting down the price of our high utility bills by increased investments in infrastructure and renewable energy 
+                - Downed power lines / mass power outages
             </Layout>
         </>
     )

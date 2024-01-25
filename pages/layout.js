@@ -3,7 +3,7 @@
  
 export const metadata = {
   title: 'Shelby Green',
-  description: 'Shelby is a recovering politician, researcher, and software developer in Tallahasse, Florida.',
+  description: 'Shelby is a recovering politician, researcher, and software developer in Tallahassee, Florida.',
 };
  
 export default function RootLayout({ children }) {

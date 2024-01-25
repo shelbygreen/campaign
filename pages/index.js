@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Layout from '../components/layout';
 
 export default function Home() {
   return (
@@ -11,15 +12,18 @@ export default function Home() {
         <link rel='icon' href='/images/sunflower.png'  />
       </Head>
 
+      <Layout 
+      home="home">
       {/* body */}
-      <body className="min-h-screen text-gray-800 antialiased">
+      {/* <body className="min-h-screen text-gray-800 antialiased"> */}
+      <body>
 
         {/* header -- navigation bar */}
-        <header className="relative z-20 flex justify-between items-center pt-12">
+        {/* <header className="relative z-20 flex justify-between items-center pt-12">
           <div className="flex block items-center w-full justify-center">
             <a href="/" className="md:absolute md:left-0 md:ml-12 hover:no-underline font-bold text-xl font-semiboldeading-none border-b-2 border-[#209390]">Shelby Green</a>
           </div>
-        </header>
+        </header> */}
 
         {/* main section */}
         <main className="md:mt-8 lg:mt-12 relative">
@@ -52,6 +56,7 @@ export default function Home() {
 
       
       </body>
+      </Layout>
 
     </>
   );
