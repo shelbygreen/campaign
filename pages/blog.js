@@ -48,7 +48,7 @@ export default function About({allPostsData}) {
                             </Link>
                             <br />
                             <small>
-                                {/* <Date className={utilStyles.headingMd} dateString={date} /> */}
+                                <Date className={utilStyles.headingMd} dateString={date} />
                                 <div className="leading-normal text-lg md:text-xl mr-1">{blurb}</div>
                             </small>
                             <div className="block no-underline md:text-xl text-darkyellow mt-2">

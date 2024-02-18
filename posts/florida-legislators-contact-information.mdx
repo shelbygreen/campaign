@@ -5,18 +5,11 @@ tag: 'blog'
 blurb: "I scraped the Florida House website so you don't have to. Inside you'll find a comprehensive directory listing the phone number and email address of every Florida State Legislator serving in the 2024 Session."
 ---
 
-While attempting to locate the email address of my State Representative on the Florida House website, I realized how annoying it is to find basic contact information for elected officials. Emails shouldn't exist bured in PDFs - they should be displayed publicly, so constituents are encouraged to contact their legislators.  
-\n
-I wrote a script to scrape contact information for each State Legislator from the House website. I shared the data below. This type of information should be open and accessible.  
+Florida's 2024 legislative session started on January 9th. Each session, members of the Florida State Legislature meet in Tallahassee to debate new laws, change existing laws, and enact budgets for the State. This session, Florida legislators are considering passing [a law to ban any city or county from setting standards to protect workers](https://www.miamiherald.com/news/local/environment/climate-change/article285250097.html#storylink=cpy) from the increasing risks of extreme heat. 
 
-I hope this makes it easier to contact your Legislator and share your concerns!
+When I learned about this bill, I wanted to tell my State Representative how I felt about this bill, but couldn’t easily find their email on the Florida House website. It was buried in a PDF file. I created a simple database that lists the contact information of every active State Legislator in Florida. Basic contact information of legislators – who are elected to represent the interests of their constituents, and vote on their behalf – should be easily accessible, and exist in one spot.
 
-<!-- ```tsx
-import flyer1 from '../public/images/bikeweekflyer-1.png'
+{<DataWrapper link='https://datawrapper.dwcdn.net/OCMrE/1/' />}
+I fetched the data from the Florida House website and wrote a Python script to scrape and store the information. Right now, DataWrapper is hosting this table, but I may try to make my own table component in the future. 
 
-<Image className={utilStyles.eventFlyer} src={flyer1}/>
-
-<iframe src="https://ridewithgps.com/embeds?type=route&id=39159265&title=Bike%20Scavenger%20Hunt" width="100%" height="550" style={{border: '1px solid #ccc'}}></iframe>
-``` -->
-
-
+I hope this tool makes it easier to contact your legislator and share your comments. If you used this tool, please let me know what issue you shared with the legislators! And if you’d like a CSV of this data, please email me at: shelby@shelbytlh.com.
