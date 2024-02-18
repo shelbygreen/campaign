@@ -17,7 +17,15 @@ export default function Layout({ children, home }) {
 
   return (
     <div className={styles.container}>
+      {/* header */}
       <Head>
+        <title>Shelby Green</title>
+        <meta name='description' content='Shelby Green is a recovering politician, researcher, and software developer in Tallahasse, Florida.' />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <link rel='icon' href='/images/sunflower.png'  />
+      </Head>
+
+      {/* <Head>
         <link rel="icon" href="/images/sunflower.png" />
         <meta
           name="description"
@@ -26,14 +34,22 @@ export default function Layout({ children, home }) {
         <meta property="og:image" content={"./public/images/profile-2.png"} />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-      </Head>
+      </Head> */}
 
       {/* header starts */}
-      <header className={styles.header}>
+      {/* header -- navigation bar */}
+      <header className="relative z-20 flex justify-between items-center pt-12">
+          <div className="flex block items-center w-full justify-center">
+            <a href="/" className="md:absolute md:left-0 md:ml-12 hover:no-underline font-bold text-xl font-semiboldeading-none border-b-2 border-[#209390]">Shelby Green</a>
+            <a href="/blog" className="md:absolute md:right-0 md:mr-12 hover:no-underline font-bold text-xl font-semiboldeading-none border-b-2 border-[#209390]">Blog</a>
+          </div>
+        </header>
+        
+      {/* <header className={styles.header}> */}
         {/* <h1 className={utilStyles.heading2Xl}>{name}</h1> */}
 
         {/* navigation bar */}
-        <div className={styles.nav}>
+        {/* <div className={styles.nav}>
           <div className={styles.navbar}>
             <a href="/" className={styles.logo}>
               <Image src={logo} />
@@ -59,8 +75,8 @@ export default function Layout({ children, home }) {
                 className={styles.donateBox}
               >
                 Donate
-              </a>
-              <Drawer
+              </a> */}
+              {/* <Drawer
                 opened={opened}
                 onClose={() => setOpened(false)}
                 overlayColor={
@@ -72,9 +88,9 @@ export default function Layout({ children, home }) {
                 overlayBlur={3}
                 position="right"
                 size="75%"
-              >
+              > */}
                 {/* Drawer content */}
-                <Center>
+                {/* <Center>
                   <Image src={logo} />
                 </Center>
                 <Box mx={10} mt={20}>
@@ -143,15 +159,15 @@ export default function Layout({ children, home }) {
               </Button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* alert bar */}
-        <div className={styles.alertBox}>
+        {/* <div className={styles.alertBox}>
           <a className={styles.alert} href="/events">
             Help us Get out the Vote! Sign up for a Volunteer Shift
           </a>
-        </div>
-      </header>
+        </div> */}
+      {/* </header> */}
 
       {/* index.js */}
       {/* {home ? (
@@ -172,21 +188,21 @@ export default function Layout({ children, home }) {
 
       {/* body */}
       <main>{children}</main>
-      {!home && (
+      {/* {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
             <a>← Back to home</a>
           </Link>
         </div>
-      )}
+      )} */}
 
       {/* footer */}
-      <div className={styles.footer}>
+      {/* <div className={styles.footer}>
         <center>
           made with <span style={{ color: "#e25555" }}>&#9829;</span> by{" "}
           <a href="https://www.github.com/shelbygreen">shelby green</a>
         </center>
-      </div>
+      </div> */}
     </div>
   );
 }
