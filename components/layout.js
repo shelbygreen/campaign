@@ -38,9 +38,12 @@ export default function Layout({ children, home }) {
 
       {/* header starts */}
       {/* header -- navigation bar */}
-      <header className="relative z-20 flex justify-between items-center pt-12">
-          <div className="flex block items-center w-full justify-center">
+      <header className="relative z-20 flex justify-between items-center pt-12 text-gray-700">
+        <div className="flex block items-center w-full justify-center">
             <a href="/" className="md:absolute md:left-0 md:ml-12 hover:no-underline font-bold text-xl font-semiboldeading-none border-b-2 border-[#209390]">Shelby Green</a>
+            {/* <a href="/writing" className="md:absolute md:right-14.5 md:mr-12 hover:no-underline font-bold text-xl font-semiboldeading-none border-b-2 border-[#209390]">Writing</a> */}
+            {/* <a href="/speaking" className="md:absolute md:right-20 md:mr-12 hover:no-underline font-bold text-xl font-semiboldeading-none border-b-2 border-[#209390]">Speaking</a> */}
+            <a href="/portfolio" className="md:absolute md:right-20 md:mr-12 hover:no-underline font-bold text-xl font-semiboldeading-none border-b-2 border-[#209390]">Portfolio</a>
             <a href="/blog" className="md:absolute md:right-0 md:mr-12 hover:no-underline font-bold text-xl font-semiboldeading-none border-b-2 border-[#209390]">Blog</a>
           </div>
         </header>
