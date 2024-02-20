@@ -5,8 +5,9 @@ import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import { MDXRemote } from "next-mdx-remote"
 import DataWrapper from "../../components/datawrapperComponent"
+import EmbedImage from "../../components/imageComponent"
 
-const customComponents = { DataWrapper }
+const customComponents = { DataWrapper, EmbedImage }
 
 export default function Post({ postData }) {
     return (
@@ -16,8 +17,8 @@ export default function Post({ postData }) {
           </Head>
   
           {/* content */}
-          <main className="px-4 md:px-12 lg:px-0 w-full lg:w-3/5 xl:w-1/2 lg:mx-auto my-24">
-              <article className="mt-4 prose-lg md:prose-xl mr-1">
+          <main className="px-4 md:px-12 lg:px-0 w-full lg:w-3/5 xl:w-1/2 lg:mx-auto my-24 text-gray-700">
+              <article className="mt-4 prose prose-lg md:prose-xl prose-a:font-bold marker:prose-li:text-darkyellow mr-1">
                   <h1 className="text-2xl lg:text-4xl font-bold text-vgreen">{postData.title}</h1>
                   <div className="text-lg md:text-xl font-bold">
                       <Date dateString={postData.date}/>
