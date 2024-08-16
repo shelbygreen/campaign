@@ -40,7 +40,7 @@ export default function About({allPostsData}) {
 
                 <section className="mt-12 md:w-3/4 lg:w-3/5 xl:w-1/2 px-4 sm:px-12 lg:px-0 mx-auto">
                     <ul>
-                    {allPostsData.filter(obj => { return obj.tag == 'writing';}).map(({ id, date, title, blurb }) => (
+                    {allPostsData.filter(obj => { return obj.tag.includes('writing');}).map(({ id, date, title, blurb }) => (
                         <li className="mb-12" key={id}>
                             <p className="text-lg md:text-2xl font-bold leading-snug mb-0 text-vgreen">{title}</p>
                             <small>
@@ -65,7 +65,7 @@ export default function About({allPostsData}) {
 
                 <section className="mt-12 md:w-3/4 lg:w-3/5 xl:w-1/2 px-4 sm:px-12 lg:px-0 mx-auto">
                     <ul>
-                    {allPostsData.filter(obj => { return obj.tag == 'project';}).map(({ id, date, title, blurb, link }) => (
+                    {allPostsData.filter(obj => { return obj.tag.includes('project');}).map(({ id, date, title, blurb, link }) => (
                         <li className="mb-12" key={id}>
                             <p className="text-lg md:text-2xl font-bold leading-snug mb-0 text-vgreen">{title}</p>
                             <small>

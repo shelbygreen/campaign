@@ -37,16 +37,16 @@ export default function Home() {
             Hi, I’m Shelby!
             </p>
             <p className="mb-5">
-            I’m a <a href="https://www.tallahassee.com/story/news/local/2022/03/16/shelby-green-data-engineer-and-neighborhood-advocate-files-run-city-commission/7047536001/" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">recovering politician</a> in Tallahassee, FL, where I work as a researcher and independent software developer.
+            I’m a <a href="https://www.tallahassee.com/story/news/local/2022/03/16/shelby-green-data-engineer-and-neighborhood-advocate-files-run-city-commission/7047536001/" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">recovering politician</a> currently residing in Washington, D.C., where I work as a <a href="https://energyandpolicy.org/shelby-green/" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">researcher</a> and <a href="https://www.tallahassee.com/story/news/local/2022/03/16/shelby-green-data-engineer-and-neighborhood-advocate-files-run-city-commission/7047536001/" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">recovering politician</a>.
             </p>
             <p className="mb-5">
-            Although my career in politics is on pause, I'm still heavily involved and am currently starting up a <a href="https://www.opentlh.com" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">digital publication</a> to increase public participation here. 
-            </p>
-            <p className="mb-5">
-            The world is chaotic, but I'm forever dreaming of an open and sustainable world. Maybe one day we'll get there!
+            Although my career in politics is on pause, I'm still heavily involved and am currently developing political education tools to increase civic engagement and public participation in Florida. 
             </p>
             <p className="mb-5">
             🚲🪴🍊⚡️
+            </p>
+            <p className="mb-5">
+            Want to build an open and sustainable world together?
             </p>
             <p>
             Let's connect!: <a href="https://docs.google.com/document/d/1mKwyL2yDOgarAfowN48Qq77ti_mQKs0eWuPWNj1daHQ/edit?usp=sharing" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">resumé</a>, <a href="mailto:shelby@shelbytlh.com" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">email</a>, <a href="https://www.twitter.com/shelbyjgreen" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">Twitter</a>, <a href="https://www.instagram.com/shelbytlh" target="blank" className="font-medium lg:font-semibold text-[#FFD478] bg-[#209390] p-1 rounded hover:no-underline">Instagram</a>.

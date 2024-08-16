@@ -6,9 +6,10 @@ import utilStyles from '../../styles/utils.module.css'
 import { MDXRemote } from "next-mdx-remote"
 import DataWrapper from "../../components/datawrapperComponent"
 import EmbedImage from "../../components/imageComponent"
+import mapboxMap from '../../components/mapComponent.tsx'
 import Link from 'next/link'
 
-const customComponents = { DataWrapper, EmbedImage, Link }
+const customComponents = { DataWrapper, EmbedImage, mapboxMap, Link }
 
 export default function Post({ postData }) {
     return (
