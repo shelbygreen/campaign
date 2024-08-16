@@ -7,6 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'vliteyellow': '#FEFCF7',
+        'liteyellow': '#FFEABC',
         'vgreen': '#209390',
         'cyellow': '#FFD478',
         'agreen': '#1f9390',

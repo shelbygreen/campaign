@@ -41,7 +41,7 @@ export default function About({allPostsData}) {
                 {/* blog posts */}
                 <section className="mt-12 md:w-3/4 lg:w-3/5 xl:w-1/2 px-4 sm:px-12 lg:px-0 mx-auto text-gray-700">
                     <ul>
-                    {allPostsData.filter(obj => { return obj.tag == 'blog';}).map(({ id, date, title, blurb }) => (
+                    {allPostsData.filter(obj => { return obj.tag.includes('blog');}).map(({ id, date, title, blurb }) => (
                         <li className="mb-12" key={id}>
                             <Link href={`/posts/${id}`}>
                                 <a className="text-lg md:text-2xl font-bold leading-snug mb-4 text-vgreen">{title}</a>

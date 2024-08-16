@@ -14,3 +14,11 @@ ignore
 # posts/*
 .devcontainer/*
 .env*
+
+# bill tracker stuff
+data.db
+components/billData.js
+pages/billrecord.js
+pages/billtracker.js
+pages/legrecord.js
+pages/api
