@@ -85,7 +85,7 @@ import * as fs from 'fs';
 import * as d3 from 'd3';
 import * as topojson from 'topojson';
 // import us from '../../../../Repositories/data/geospatial/states-albers-10m.json';
-import * as statesMap from '../../../../Repositories/data/geospatial/states-albers-10m.json';
+import * as statesMap from '../data/states-albers-10m.json';
 
 // export default function mapboxMap() { 
 //     const path = d3.geoPath();
