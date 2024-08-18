@@ -22,6 +22,11 @@ module.exports = {
   // withMDX(nextConfig)
 
   webpack(config) {
+    config.module.rules.push({
+      test: /\.geojson$/,
+      use: ["json-loader"]
+    });
+    
     config.resolve.fallback = {
 
       // if you miss it, all the other options in fallback, specified
