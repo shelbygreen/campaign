@@ -1,0 +1,75 @@
+---
+title: 'How to get early voter turnout data in Florida'
+date: '2024-08-18'
+tag: ['blog', 'tutorial']
+blurb: "A no-code tutorial on how to fetch election data from Leon County and the State of Florida."
+---
+
+I'm hesistant to say that this is a tradition, because then I would have to do this for years to come, but this is the second election in a row where I've posted early voting reports on Instagram. 
+
+The idea to create these reports came when I was talking with a friend, Zion Lampley, to increase voter turnout on college campuses. The easiest thing we could think of was just posting daily voter turnout reports to start conversation and raise awareness. 
+
+{<center><EmbedImage name='Voter-Turnout-Reports.png' width='800px' height='400px' /></center>}
+
+And it worked! The reports got HUNDREDS of shares, mentions, and was even reposted on a top local Instagram account. We also received an [indirect mention](https://www.tallahassee.com/story/news/politics/elections/2022/11/05/souls-polls-rally-returns-north-florida-early-voting/8266008001/) in the Tallahassee Democrat. A student said, “the reason why I decided to do early voting was specifically because I saw that the voting numbers on FAMU’s campus were low”.
+
+On November 1st, early voter turnout on FAMU's campus was 6.42%. At the end of Election Day, it was 34.73%. 
+
+I don't currently live in Tallahassee, but I continue this effort because it's the least I can do to promote political education and civic engagement, especially among populations that are often overlooked.
+
+### Tutorial
+
+#### Step 1: Determine FSU & FAMU precincts by looking at the [Leon County Precincts Map](https://tlcgis.leoncountyfl.gov/SOE/index.html)
+
+This step is a bit subjective, but essentially we're determining the most student-populated precincts for each college campus. This step requires having demographic knowledge of the area.
+- FAMU Precincts: 1309
+- FSU Precincts: 2503, 1503, 1302
+
+#### Step 2: Get a list of qualified, aka registered, voters that are eligible to vote in the 2024 Primary Election in Leon County
+
+You can access the list [here](https://www.leonvotes.gov/Portals/Leon/Documents/Data_Lists/Current%20Data/Snapshot/Qualified%20Voters%20by%20Precinct.pdf). It was [produced by the Leon County's Supervisor of Elections Office](https://www.leonvotes.gov/Records-Data-Maps/Voter-and-Precinct-Data).
+
+#### Step 2.5: Filter this list and store the data in a Google Spreadsheet
+
+For each precinct, copy the number of total registered voters. Put the data in a Google Spreadsheet. This is what it should look like when you're done:
+
+{<center><EmbedImage name='Voter-Turnout-Reports-Tutorial-Step-2.5.png' width='800px' height='125px' /></center>}
+
+#### Step 3: Download the daily early voting totals for Leon County
+
+You can find the data [here](https://countyballotfiles.floridados.gov/VoteByMailEarlyVotingReports/PublicReports). Download the Early Voting Report for 'Leon County'. This file will contain a list of voters that have voted early in Leon County for the 2024 Primary Election. This data is managed by the [State of Florida's Division of Elections Office](https://dos.fl.gov/elections/data-statistics/elections-data/absentee-and-early-voting/).
+
+The file will be saved as a ".txt" file. You'll want to convert this into a ".csv" file. You can use Excel or any other spreadsheet software to convert the file.
+
+#### Step 3.5: Filter the data to get vote totals for the FAMU & FSU precincts
+
+Open the file in Google Sheets. Filter the ‘AbsPrecinct’ column to get the total number of early voters per precinct. Add that data to the Google Spreadsheet. 
+
+This is what it should look like when you're done:
+
+{<center><EmbedImage name='Voter-Turnout-Reports-Tutorial-Step-3.5.png' width='800px' height='50px' /></center>}
+
+#### Step 4: Calculate the Early Voter Turnout for each college campus
+
+We're just about done! This last step just requires you to calculate the turnout, using this basic formula: 100*(early Voters on Campus/ total Registered Voters on Campus). Now our spreadsheet looks like this:
+
+{<center><EmbedImage name='Voter-Turnout-Reports-Tutorial-Step-4.png' width='800px' height='30px' /></center>}
+
+All done :) Hope this helped! If you have any questions, feel free to shoot me an email: shelby@shelbytlh.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
