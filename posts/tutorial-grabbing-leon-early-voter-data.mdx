@@ -21,9 +21,9 @@ I don't currently live in Tallahassee, but I continue this effort because it's t
 
 #### Step 1: Determine FSU & FAMU precincts by looking at the [Leon County Precincts Map](https://tlcgis.leoncountyfl.gov/SOE/index.html)
 
-This step is a bit subjective, but essentially we're determining the most student-populated precincts for each college campus. This step requires having demographic knowledge of the area.
+This step is a bit subjective, but essentially we're determining the main majority-student precincts for each college campus. This step requires having demographic knowledge of the area, or identifying the precincts that contain dorms.
 - FAMU Precincts: 1309
-- FSU Precincts: 2503, 1503, 1302
+- FSU Precincts: 2503, 1503, 1507
 
 #### Step 2: Get a list of qualified, aka registered, voters that are eligible to vote in the 2024 Primary Election in Leon County
 
@@ -33,13 +33,13 @@ You can access the list [here](https://www.leonvotes.gov/Portals/Leon/Documents/
 
 For each precinct, copy the number of total registered voters. Put the data in a Google Spreadsheet. This is what it should look like when you're done:
 
-{<center><EmbedImage name='Voter-Turnout-Reports-Tutorial-Step-2.5.png' width='800px' height='125px' /></center>}
+{<center><EmbedImage name='Voter-Turnout-Reports-Tutorial-Step-2.5.png' width='800px' height='75px' /></center>}
 
 #### Step 3: Download the daily early voting totals for Leon County
 
-You can find the data [here](https://countyballotfiles.floridados.gov/VoteByMailEarlyVotingReports/PublicReports). Download the Early Voting Report for 'Leon County'. This file will contain a list of voters that have voted early in Leon County for the 2024 Primary Election. This data is managed by the [State of Florida's Division of Elections Office](https://dos.fl.gov/elections/data-statistics/elections-data/absentee-and-early-voting/).
+You can find the data [here](https://countyballotfiles.floridados.gov/VoteByMailEarlyVotingReports/PublicReports). Download the Early Voting Report for Leon County. This file will contain a list of voters that have voted early in Leon County for the 2024 Primary Election. This data is managed by the [State of Florida's Division of Elections Office](https://dos.fl.gov/elections/data-statistics/elections-data/absentee-and-early-voting/).
 
-The file will be saved as a ".txt" file. You'll want to convert this into a ".csv" file. You can use Excel or any other spreadsheet software to convert the file.
+The file will be saved as a ".txt" file. You'll want to convert this into a ".csv" file. You can do that using Excel or any other spreadsheet program.
 
 #### Step 3.5: Filter the data to get vote totals for the FAMU & FSU precincts
 
@@ -51,9 +51,11 @@ This is what it should look like when you're done:
 
 #### Step 4: Calculate the Early Voter Turnout for each college campus
 
-We're just about done! This last step just requires you to calculate the turnout, using this basic formula: 100*(early Voters on Campus/ total Registered Voters on Campus). Now our spreadsheet looks like this:
+We're just about done! The last step just requires you to calculate the total campus turnout (based on the defined precincts), using this basic formula: 100*(early Voters on Campus/ total Registered Voters on Campus).
 
-{<center><EmbedImage name='Voter-Turnout-Reports-Tutorial-Step-4.png' width='800px' height='30px' /></center>}
+Now our spreadsheet looks like this:
+
+{<center><EmbedImage name='Voter-Turnout-Reports-Tutorial-Step-4.png' width='800px' height='225px' /></center>}
 
 All done :) Hope this helped! If you have any questions, feel free to shoot me an email: shelby@shelbytlh.com
 
