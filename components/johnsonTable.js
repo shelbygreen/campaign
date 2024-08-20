@@ -15,7 +15,7 @@ export default function johnsonTable() {
             <tbody>
                 <tr>
                     <td className="px-6 py-2">Former Mayor and City Commissioner; deeply familiar with government affairs</td>
-                    <td className="px-6 py-2">Heavily reliant on political/financial support from Our Tallahassee, which could impair her judgment, if elected</td>
+                    <td className="px-6 py-2">Heavily reliant on political/financial support from One Tallahassee, which could influence voting decisions, if elected</td>
                 </tr>
                 <tr>
                     <td className="px-6 py-2">Served as the Executive Director of the Capital Area Community Action Agency where she worked to reduce economic burden and poverty in the region</td>
