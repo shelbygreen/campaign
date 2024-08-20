@@ -17,9 +17,9 @@ const nextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   // Optionally, add any other Next.js config below
 }
- 
+
 module.exports = {
-  // withMDX(nextConfig)
+  withMDX(nextConfig){},
 
   webpack(config) {
     config.module.rules.push({

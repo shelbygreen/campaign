@@ -8,9 +8,16 @@ import DataWrapper from "../../components/datawrapperComponent"
 import EmbedImage from "../../components/imageComponent"
 import mapboxMap from '../../components/mapComponent.tsx'
 import d3Map from '../../components/d3Component.jsx'
+import porterTable from '../../components/porterTable.js'
+import dilbertTable from '../../components/dilbertTable.js'
+import fergusonTable from '../../components/fergusonTable.js'
+import richardsonTable from '../../components/richardsonTable.js'
+import johnsonTable from '../../components/johnsonTable.js'
+import stevensTable from '../../components/stevensTable.js'
+import nyackTable from '../../components/nyackTable.js'
 import Link from 'next/link'
 
-const customComponents = { DataWrapper, EmbedImage, mapboxMap, d3Map, Link }
+const customComponents = { DataWrapper, EmbedImage, mapboxMap, d3Map, Link, porterTable, dilbertTable, fergusonTable, richardsonTable, stevensTable, nyackTable, johnsonTable }
 
 export default function Post({ postData }) {
     return (
