@@ -2,7 +2,6 @@ import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
-import utilStyles from '../../styles/utils.module.css'
 import { MDXRemote } from "next-mdx-remote"
 import DataWrapper from "../../components/datawrapperComponent"
 import airtableForm from "../../components/formComponent"
@@ -17,13 +16,12 @@ import johnsonTable from '../../components/johnsonTable.js'
 import stevensTable from '../../components/stevensTable.js'
 import nyackTable from '../../components/nyackTable.js'
 import Link from 'next/link'
-import path from 'path'
 
 const customComponents = { DataWrapper, EmbedImage, mapboxMap, d3Map, Link, porterTable, dilbertTable, fergusonTable, richardsonTable, stevensTable, nyackTable, johnsonTable, airtableForm }
 
 export default function Post({ postData }) {
 
-    const imagePath =  path.join("https://www.shelbytlh.com", "/images", postData.image);
+    const imagePath = `https://www.shelbytlh.com/images/${postData.image}`
 
     return (
         <Layout>
