@@ -5,6 +5,7 @@ import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import { MDXRemote } from "next-mdx-remote"
 import DataWrapper from "../../components/datawrapperComponent"
+import airtableForm from "../../components/formComponent"
 import EmbedImage from "../../components/imageComponent"
 import mapboxMap from '../../components/mapComponent.tsx'
 import d3Map from '../../components/d3Component.jsx'
@@ -16,14 +17,35 @@ import johnsonTable from '../../components/johnsonTable.js'
 import stevensTable from '../../components/stevensTable.js'
 import nyackTable from '../../components/nyackTable.js'
 import Link from 'next/link'
+import path from 'path'
 
-const customComponents = { DataWrapper, EmbedImage, mapboxMap, d3Map, Link, porterTable, dilbertTable, fergusonTable, richardsonTable, stevensTable, nyackTable, johnsonTable }
+const customComponents = { DataWrapper, EmbedImage, mapboxMap, d3Map, Link, porterTable, dilbertTable, fergusonTable, richardsonTable, stevensTable, nyackTable, johnsonTable, airtableForm }
 
 export default function Post({ postData }) {
+
+    const imagePath =  path.join(process.cwd(), "/images", postData.image);
+
     return (
         <Layout>
           <Head>
+            {/* Primary Meta Tags */}
               <title>{postData.title}</title>
+              <meta name="title" content={postData.title} />
+              <meta name="description" content={postData.blurb} />
+            {/* Open Graph / Facebook */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content={postData.url} />
+            <meta property="og:title" content={postData.title} />
+            <meta property="og:description" content={postData.blurb} />
+            <meta property="og:image" content={imagePath} />
+            {/* Twitter */}
+            <meta property="twitter:card" content="summary_large_image" />
+            <meta property="twitter:url" content={postData.url} />
+            <meta property="twitter:title" content={postData.title} />
+            <meta property="twitter:description" content={postData.blurb} />
+            <meta property="twitter:image" content={imagePath} />
+            {/* from https://metatags.io */}
+
           </Head>
   
           {/* content */}
