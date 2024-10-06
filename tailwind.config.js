@@ -5,6 +5,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      'object': ['Fredoka']
+    },
     extend: {
       colors: {
         'vliteyellow': '#FEFCF7',

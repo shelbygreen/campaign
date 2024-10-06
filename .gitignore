@@ -27,4 +27,6 @@ components/billData.js
 pages/billrecord.js
 pages/billtracker.js
 pages/legrecord.js
-pages/api
+pages/api/build_data_bill_record.js
+pages/api/build_data_leg_record.js
+pages/objectdisconnects.js
