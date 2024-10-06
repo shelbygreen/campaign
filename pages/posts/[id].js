@@ -23,7 +23,7 @@ const customComponents = { DataWrapper, EmbedImage, mapboxMap, d3Map, Link, port
 
 export default function Post({ postData }) {
 
-    const imagePath =  path.join(process.cwd(), "/images", postData.image);
+    const imagePath =  path.join("https://www.shelbytlh.com", "/images", postData.image);
 
     return (
         <Layout>
