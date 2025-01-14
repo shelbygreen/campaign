@@ -1,0 +1,145 @@
+,bill,title,name,party,vote,voteScore,color,district,chamber,vote_desc
+3105,H0287,Transportation,Robin Bartleman,Democrat,0,100,blue,H103,House,N
+3128,H0287,Transportation,Lindsay Cross,Democrat,0,100,blue,H060,House,N
+3131,H0287,Transportation,Fentrice Driskell,Democrat,0,100,blue,H067,House,N
+3135,H0287,Transportation,Anna Eskamani,Democrat,0,100,blue,H042,House,N
+3146,H0287,Transportation,Michael Gottlieb,Democrat,0,100,blue,H102,House,N
+3150,H0287,Transportation,Jennifer Harris,Democrat,0,100,blue,H044,House,N
+3152,H0287,Transportation,Yvonne Hinson,Democrat,0,100,blue,H021,House,N
+3154,H0287,Transportation,Christine Hunschofsky,Democrat,0,100,blue,H095,House,N
+3157,H0287,Transportation,Tom Keen,Democrat,0,100,blue,H035,House,N
+3207,H0287,Transportation,Susan Valdés,Democrat,0,100,blue,H064,House,N
+3209,H0287,Transportation,Patricia Williams,Democrat,0,100,blue,H098,House,N
+3100,H0287,Transportation,Bruce Antone,Democrat,1,0,blue,H041,House,Y
+3101,H0287,Transportation,Kristen Arrington,Democrat,1,0,blue,H046,House,Y
+3109,H0287,Transportation,Christopher Benjamin,Democrat,1,0,blue,H107,House,Y
+3115,H0287,Transportation,LaVon Bracy Davis,Democrat,1,0,blue,H040,House,Y
+3119,H0287,Transportation,Daryl Campbell,Democrat,1,0,blue,H099,House,Y
+3129,H0287,Transportation,Dan Daley,Democrat,1,0,blue,H096,House,Y
+3130,H0287,Transportation,Kimberly Daniels,Democrat,1,0,blue,H014,House,Y
+3134,H0287,Transportation,Jervonte Edmonds,Democrat,1,0,blue,H088,House,Y
+3139,H0287,Transportation,Gallop Franklin,Democrat,1,0,blue,H008,House,Y
+3162,H0287,Transportation,Johanna López,Democrat,1,0,blue,H043,House,Y
+3181,H0287,Transportation,Michele Rayner,Democrat,1,0,blue,H062,House,Y
+3192,H0287,Transportation,David Silvers,Democrat,1,0,blue,H089,House,Y
+3194,H0287,Transportation,Kelly Skidmore,Democrat,1,0,blue,H092,House,Y
+3200,H0287,Transportation,Allison Tant,Democrat,1,0,blue,H009,House,Y
+3208,H0287,Transportation,Katherine Waldron,Democrat,1,0,blue,H093,House,Y
+3210,H0287,Transportation,Marie Woodson,Democrat,1,0,blue,H105,House,Y
+3122,H0287,Transportation,Joe Casello,Democrat,2,120,blue,H090,House,-
+3123,H0287,Transportation,Hillary Cassel,Democrat,2,120,blue,H101,House,-
+3125,H0287,Transportation,Kevin Chambliss,Democrat,2,120,blue,H117,House,-
+3133,H0287,Transportation,Lisa Dunkley,Democrat,2,120,blue,H097,House,-
+3140,H0287,Transportation,Ashley Gantt,Democrat,2,120,blue,H109,House,-
+3151,H0287,Transportation,Dianne Hart,Democrat,2,120,blue,H063,House,-
+3156,H0287,Transportation,Dotie Joseph,Democrat,2,120,blue,H108,House,-
+3173,H0287,Transportation,Angela Nixon,Democrat,2,120,blue,H013,House,-
+3186,H0287,Transportation,Felicia Robinson,Democrat,2,120,blue,H104,House,-
+21665,H1403,School Choice,Kristen Arrington,Democrat,0,100,blue,H046,House,N
+21669,H1403,School Choice,Robin Bartleman,Democrat,0,100,blue,H103,House,N
+21673,H1403,School Choice,Christopher Benjamin,Democrat,0,100,blue,H107,House,N
+21679,H1403,School Choice,LaVon Bracy Davis,Democrat,0,100,blue,H040,House,N
+21683,H1403,School Choice,Daryl Campbell,Democrat,0,100,blue,H099,House,N
+21687,H1403,School Choice,Hillary Cassel,Democrat,0,100,blue,H101,House,N
+21693,H1403,School Choice,Dan Daley,Democrat,0,100,blue,H096,House,N
+21699,H1403,School Choice,Anna Eskamani,Democrat,0,100,blue,H042,House,N
+21704,H1403,School Choice,Ashley Gantt,Democrat,0,100,blue,H109,House,N
+21714,H1403,School Choice,Jennifer Harris,Democrat,0,100,blue,H044,House,N
+21715,H1403,School Choice,Dianne Hart,Democrat,0,100,blue,H063,House,N
+21716,H1403,School Choice,Yvonne Hinson,Democrat,0,100,blue,H021,House,N
+21721,H1403,School Choice,Tom Keen,Democrat,0,100,blue,H035,House,N
+21737,H1403,School Choice,Angela Nixon,Democrat,0,100,blue,H013,House,N
+21745,H1403,School Choice,Michele Rayner,Democrat,0,100,blue,H062,House,N
+21750,H1403,School Choice,Felicia Robinson,Democrat,0,100,blue,H104,House,N
+21764,H1403,School Choice,Allison Tant,Democrat,0,100,blue,H009,House,N
+21774,H1403,School Choice,Marie Woodson,Democrat,0,100,blue,H105,House,N
+21689,H1403,School Choice,Kevin Chambliss,Democrat,1,0,blue,H117,House,Y
+21694,H1403,School Choice,Kimberly Daniels,Democrat,1,0,blue,H014,House,Y
+21697,H1403,School Choice,Lisa Dunkley,Democrat,1,0,blue,H097,House,Y
+21703,H1403,School Choice,Gallop Franklin,Democrat,1,0,blue,H008,House,Y
+21718,H1403,School Choice,Christine Hunschofsky,Democrat,1,0,blue,H095,House,Y
+21726,H1403,School Choice,Johanna López,Democrat,1,0,blue,H043,House,Y
+21771,H1403,School Choice,Susan Valdés,Democrat,1,0,blue,H064,House,Y
+21772,H1403,School Choice,Katherine Waldron,Democrat,1,0,blue,H093,House,Y
+21664,H1403,School Choice,Bruce Antone,Democrat,2,120,blue,H041,House,-
+21686,H1403,School Choice,Joe Casello,Democrat,2,120,blue,H090,House,-
+21692,H1403,School Choice,Lindsay Cross,Democrat,2,120,blue,H060,House,-
+21695,H1403,School Choice,Fentrice Driskell,Democrat,2,120,blue,H067,House,-
+21698,H1403,School Choice,Jervonte Edmonds,Democrat,2,120,blue,H088,House,-
+21710,H1403,School Choice,Michael Gottlieb,Democrat,2,120,blue,H102,House,-
+21720,H1403,School Choice,Dotie Joseph,Democrat,2,120,blue,H108,House,-
+21756,H1403,School Choice,David Silvers,Democrat,2,120,blue,H089,House,-
+21758,H1403,School Choice,Kelly Skidmore,Democrat,2,120,blue,H092,House,-
+21773,H1403,School Choice,Patricia Williams,Democrat,2,120,blue,H098,House,-
+30485,H1545,Child Exploitation Offenses,LaVon Bracy Davis,Democrat,0,100,blue,H040,House,N
+30489,H1545,Child Exploitation Offenses,Daryl Campbell,Democrat,0,100,blue,H099,House,N
+30500,H1545,Child Exploitation Offenses,Kimberly Daniels,Democrat,0,100,blue,H014,House,N
+30505,H1545,Child Exploitation Offenses,Anna Eskamani,Democrat,0,100,blue,H042,House,N
+30510,H1545,Child Exploitation Offenses,Ashley Gantt,Democrat,0,100,blue,H109,House,N
+30516,H1545,Child Exploitation Offenses,Michael Gottlieb,Democrat,0,100,blue,H102,House,N
+30521,H1545,Child Exploitation Offenses,Dianne Hart,Democrat,0,100,blue,H063,House,N
+30543,H1545,Child Exploitation Offenses,Angela Nixon,Democrat,0,100,blue,H013,House,N
+30577,H1545,Child Exploitation Offenses,Susan Valdés,Democrat,0,100,blue,H064,House,N
+30579,H1545,Child Exploitation Offenses,Patricia Williams,Democrat,0,100,blue,H098,House,N
+30580,H1545,Child Exploitation Offenses,Marie Woodson,Democrat,0,100,blue,H105,House,N
+30470,H1545,Child Exploitation Offenses,Bruce Antone,Democrat,1,0,blue,H041,House,Y
+30471,H1545,Child Exploitation Offenses,Kristen Arrington,Democrat,1,0,blue,H046,House,Y
+30475,H1545,Child Exploitation Offenses,Robin Bartleman,Democrat,1,0,blue,H103,House,Y
+30479,H1545,Child Exploitation Offenses,Christopher Benjamin,Democrat,1,0,blue,H107,House,Y
+30493,H1545,Child Exploitation Offenses,Hillary Cassel,Democrat,1,0,blue,H101,House,Y
+30495,H1545,Child Exploitation Offenses,Kevin Chambliss,Democrat,1,0,blue,H117,House,Y
+30498,H1545,Child Exploitation Offenses,Lindsay Cross,Democrat,1,0,blue,H060,House,Y
+30499,H1545,Child Exploitation Offenses,Dan Daley,Democrat,1,0,blue,H096,House,Y
+30501,H1545,Child Exploitation Offenses,Fentrice Driskell,Democrat,1,0,blue,H067,House,Y
+30503,H1545,Child Exploitation Offenses,Lisa Dunkley,Democrat,1,0,blue,H097,House,Y
+30509,H1545,Child Exploitation Offenses,Gallop Franklin,Democrat,1,0,blue,H008,House,Y
+30520,H1545,Child Exploitation Offenses,Jennifer Harris,Democrat,1,0,blue,H044,House,Y
+30522,H1545,Child Exploitation Offenses,Yvonne Hinson,Democrat,1,0,blue,H021,House,Y
+30524,H1545,Child Exploitation Offenses,Christine Hunschofsky,Democrat,1,0,blue,H095,House,Y
+30527,H1545,Child Exploitation Offenses,Tom Keen,Democrat,1,0,blue,H035,House,Y
+30532,H1545,Child Exploitation Offenses,Johanna López,Democrat,1,0,blue,H043,House,Y
+30551,H1545,Child Exploitation Offenses,Michele Rayner,Democrat,1,0,blue,H062,House,Y
+30562,H1545,Child Exploitation Offenses,David Silvers,Democrat,1,0,blue,H089,House,Y
+30570,H1545,Child Exploitation Offenses,Allison Tant,Democrat,1,0,blue,H009,House,Y
+30578,H1545,Child Exploitation Offenses,Katherine Waldron,Democrat,1,0,blue,H093,House,Y
+30492,H1545,Child Exploitation Offenses,Joe Casello,Democrat,2,120,blue,H090,House,-
+30504,H1545,Child Exploitation Offenses,Jervonte Edmonds,Democrat,2,120,blue,H088,House,-
+30526,H1545,Child Exploitation Offenses,Dotie Joseph,Democrat,2,120,blue,H108,House,-
+30556,H1545,Child Exploitation Offenses,Felicia Robinson,Democrat,2,120,blue,H104,House,-
+30564,H1545,Child Exploitation Offenses,Kelly Skidmore,Democrat,2,120,blue,H092,House,-
+11802,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,LaVon Bracy Davis,Democrat,0,100,blue,H040,House,N
+11822,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Anna Eskamani,Democrat,0,100,blue,H042,House,N
+11827,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Ashley Gantt,Democrat,0,100,blue,H109,House,N
+11837,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Jennifer Harris,Democrat,0,100,blue,H044,House,N
+11838,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Dianne Hart,Democrat,0,100,blue,H063,House,N
+11849,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Johanna López,Democrat,0,100,blue,H043,House,N
+11860,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Angela Nixon,Democrat,0,100,blue,H013,House,N
+11868,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Michele Rayner,Democrat,0,100,blue,H062,House,N
+11873,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Felicia Robinson,Democrat,0,100,blue,H104,House,N
+11894,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Susan Valdés,Democrat,0,100,blue,H064,House,N
+11896,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Patricia Williams,Democrat,0,100,blue,H098,House,N
+11787,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Bruce Antone,Democrat,1,0,blue,H041,House,Y
+11788,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Kristen Arrington,Democrat,1,0,blue,H046,House,Y
+11792,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Robin Bartleman,Democrat,1,0,blue,H103,House,Y
+11796,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Christopher Benjamin,Democrat,1,0,blue,H107,House,Y
+11810,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Hillary Cassel,Democrat,1,0,blue,H101,House,Y
+11812,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Kevin Chambliss,Democrat,1,0,blue,H117,House,Y
+11815,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Lindsay Cross,Democrat,1,0,blue,H060,House,Y
+11816,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Dan Daley,Democrat,1,0,blue,H096,House,Y
+11817,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Kimberly Daniels,Democrat,1,0,blue,H014,House,Y
+11818,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Fentrice Driskell,Democrat,1,0,blue,H067,House,Y
+11820,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Lisa Dunkley,Democrat,1,0,blue,H097,House,Y
+11826,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Gallop Franklin,Democrat,1,0,blue,H008,House,Y
+11833,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Michael Gottlieb,Democrat,1,0,blue,H102,House,Y
+11839,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Yvonne Hinson,Democrat,1,0,blue,H021,House,Y
+11841,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Christine Hunschofsky,Democrat,1,0,blue,H095,House,Y
+11844,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Tom Keen,Democrat,1,0,blue,H035,House,Y
+11879,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,David Silvers,Democrat,1,0,blue,H089,House,Y
+11887,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Allison Tant,Democrat,1,0,blue,H009,House,Y
+11895,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Katherine Waldron,Democrat,1,0,blue,H093,House,Y
+11897,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Marie Woodson,Democrat,1,0,blue,H105,House,Y
+11806,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Daryl Campbell,Democrat,2,120,blue,H099,House,-
+11809,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Joe Casello,Democrat,2,120,blue,H090,House,-
+11821,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Jervonte Edmonds,Democrat,2,120,blue,H088,House,-
+11843,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Dotie Joseph,Democrat,2,120,blue,H108,House,-
+11881,S0718,Exposures of First Responders to Fentanyl and Fentanyl Analogs,Kelly Skidmore,Democrat,2,120,blue,H092,House,-

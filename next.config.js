@@ -23,8 +23,12 @@ module.exports = {
 
   webpack(config) {
     config.module.rules.push({
-      test: /\.geojson$/,
-      use: ["json-loader"]
+      test: /\.(geojson|csv)$/, //changed from /\.geojson$/
+      type: 'asset',
+      generator: {
+        filename: 'static/chunks/[path][name].[hash][ext]'
+      }
+      // use: ["file-loader"] //changed from json-loader
     });
     
     config.resolve.fallback = {

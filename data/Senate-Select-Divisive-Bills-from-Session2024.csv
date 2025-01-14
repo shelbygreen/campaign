@@ -1,0 +1,49 @@
+,bill,title,name,party,vote,voteScore,color,district,chamber,vote_desc
+8283,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Lori Berman,Democrat,0,100,blue,S026,Senate,N
+8293,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Tracie Davis,Democrat,0,100,blue,S005,Senate,N
+8308,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Tina Polsky,Democrat,0,100,blue,S030,Senate,N
+8309,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Bobby Powell,Democrat,0,100,blue,S024,Senate,N
+8316,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Victor Torres,Democrat,0,100,blue,S025,Senate,N
+8284,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Lauren Book,Democrat,1,0,blue,S035,Senate,Y
+8302,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Shevrin Jones,Democrat,1,0,blue,S034,Senate,Y
+8305,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Rosalind Osgood,Democrat,1,0,blue,S032,Senate,Y
+8307,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Jason Pizzo,Democrat,1,0,blue,S037,Senate,Y
+8314,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Linda Stewart,Democrat,1,0,blue,S017,Senate,Y
+8315,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Geraldine Thompson,Democrat,1,0,blue,S015,Senate,Y
+8312,H1491,Pub. Rec./Investigations by the Department of Legal Affairs,Darryl Rouson,Democrat,2,120,blue,S016,Senate,-
+8763,H7067,Pretrial Detention Hearings,Lori Berman,Democrat,0,100,blue,S026,Senate,N
+8782,H7067,Pretrial Detention Hearings,Shevrin Jones,Democrat,0,100,blue,S034,Senate,N
+8785,H7067,Pretrial Detention Hearings,Rosalind Osgood,Democrat,0,100,blue,S032,Senate,N
+8789,H7067,Pretrial Detention Hearings,Bobby Powell,Democrat,0,100,blue,S024,Senate,N
+8795,H7067,Pretrial Detention Hearings,Geraldine Thompson,Democrat,0,100,blue,S015,Senate,N
+8764,H7067,Pretrial Detention Hearings,Lauren Book,Democrat,1,0,blue,S035,Senate,Y
+8787,H7067,Pretrial Detention Hearings,Jason Pizzo,Democrat,1,0,blue,S037,Senate,Y
+8788,H7067,Pretrial Detention Hearings,Tina Polsky,Democrat,1,0,blue,S030,Senate,Y
+8792,H7067,Pretrial Detention Hearings,Darryl Rouson,Democrat,1,0,blue,S016,Senate,Y
+8794,H7067,Pretrial Detention Hearings,Linda Stewart,Democrat,1,0,blue,S017,Senate,Y
+8796,H7067,Pretrial Detention Hearings,Victor Torres,Democrat,1,0,blue,S025,Senate,Y
+8773,H7067,Pretrial Detention Hearings,Tracie Davis,Democrat,2,120,blue,S005,Senate,-
+3443,S0592,Historical Preservation Programs,Lori Berman,Democrat,0,100,blue,S026,Senate,N
+3444,S0592,Historical Preservation Programs,Lauren Book,Democrat,0,100,blue,S035,Senate,N
+3467,S0592,Historical Preservation Programs,Jason Pizzo,Democrat,0,100,blue,S037,Senate,N
+3475,S0592,Historical Preservation Programs,Geraldine Thompson,Democrat,0,100,blue,S015,Senate,N
+3476,S0592,Historical Preservation Programs,Victor Torres,Democrat,0,100,blue,S025,Senate,N
+3453,S0592,Historical Preservation Programs,Tracie Davis,Democrat,1,0,blue,S005,Senate,Y
+3462,S0592,Historical Preservation Programs,Shevrin Jones,Democrat,1,0,blue,S034,Senate,Y
+3465,S0592,Historical Preservation Programs,Rosalind Osgood,Democrat,1,0,blue,S032,Senate,Y
+3468,S0592,Historical Preservation Programs,Tina Polsky,Democrat,1,0,blue,S030,Senate,Y
+3469,S0592,Historical Preservation Programs,Bobby Powell,Democrat,1,0,blue,S024,Senate,Y
+3472,S0592,Historical Preservation Programs,Darryl Rouson,Democrat,1,0,blue,S016,Senate,Y
+3474,S0592,Historical Preservation Programs,Linda Stewart,Democrat,1,0,blue,S017,Senate,Y
+5173,S0994,Student Transportation Safety,Tracie Davis,Democrat,0,100,blue,S005,Senate,N
+5189,S0994,Student Transportation Safety,Bobby Powell,Democrat,0,100,blue,S024,Senate,N
+5194,S0994,Student Transportation Safety,Linda Stewart,Democrat,0,100,blue,S017,Senate,N
+5164,S0994,Student Transportation Safety,Lauren Book,Democrat,1,0,blue,S035,Senate,Y
+5185,S0994,Student Transportation Safety,Rosalind Osgood,Democrat,1,0,blue,S032,Senate,Y
+5187,S0994,Student Transportation Safety,Jason Pizzo,Democrat,1,0,blue,S037,Senate,Y
+5188,S0994,Student Transportation Safety,Tina Polsky,Democrat,1,0,blue,S030,Senate,Y
+5192,S0994,Student Transportation Safety,Darryl Rouson,Democrat,1,0,blue,S016,Senate,Y
+5195,S0994,Student Transportation Safety,Geraldine Thompson,Democrat,1,0,blue,S015,Senate,Y
+5196,S0994,Student Transportation Safety,Victor Torres,Democrat,1,0,blue,S025,Senate,Y
+5163,S0994,Student Transportation Safety,Lori Berman,Democrat,2,120,blue,S026,Senate,-
+5182,S0994,Student Transportation Safety,Shevrin Jones,Democrat,2,120,blue,S034,Senate,-
