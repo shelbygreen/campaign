@@ -6,6 +6,9 @@ import { MDXRemote } from "next-mdx-remote"
 import DataWrapper from "../../components/datawrapperComponent"
 import airtableForm from "../../components/formComponent"
 import EmbedImage from "../../components/imageComponent"
+import dotPlot from '../../components/dotPlotComponent.jsx'
+import dotPlot2 from '../../components/dotPlotComponent2.jsx'
+import jumpBox from '../../components/jumpBox.jsx'
 import mapboxMap from '../../components/mapComponent.tsx'
 import d3Map from '../../components/d3Component.jsx'
 import porterTable from '../../components/porterTable.js'
@@ -17,7 +20,7 @@ import stevensTable from '../../components/stevensTable.js'
 import nyackTable from '../../components/nyackTable.js'
 import Link from 'next/link'
 
-const customComponents = { DataWrapper, EmbedImage, mapboxMap, d3Map, Link, porterTable, dilbertTable, fergusonTable, richardsonTable, stevensTable, nyackTable, johnsonTable, airtableForm }
+const customComponents = { DataWrapper, EmbedImage, mapboxMap, dotPlot, dotPlot2, jumpBox, d3Map, Link, porterTable, dilbertTable, fergusonTable, richardsonTable, stevensTable, nyackTable, johnsonTable, airtableForm }
 
 export default function Post({ postData }) {
 
