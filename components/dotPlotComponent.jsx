@@ -365,8 +365,8 @@ export default function dotPlot() {
 
 
   // search
-  d3.select("#input").on('keyup', function() {
-    var searchTerm = d3.select("#input").property("value").toLocaleUpperCase()
+  d3.select("#input1").on('keyup', function() {
+    var searchTerm = d3.select("#input1").property("value").toLocaleUpperCase()
     console.log(searchTerm)
     d3.selectAll("circle").attr('fill', d => colorScale(d.color))
     d3.selectAll("circle").filter(d => d.name_upper.indexOf(searchTerm) == -1).attr('fill', '#bdbdbd')
@@ -473,9 +473,9 @@ export default function dotPlot() {
 
   }, [data]);
 
-  return <div>
+  return <div id="plot1">
     <input
-      id="input"
+      id="input1"
       type="text"
       placeholder="Search for a representative"
       className="w-80 pl-4 pr-4 h-10 border border-gray-200 focus:border-gray-500 bg-white box-border text-lg">
