@@ -1,0 +1,141 @@
+--- a/package.json
++++ b/package.json
+@@ -25,7 +25,7 @@
+     "gray-matter": "^4.0.3",
+     "mapbox-gl": "^3.5.2",
+     "next": "12.1.0",
+-    "next-mdx-remote": "^4.4.1",
++    "next-mdx-remote": "^6.0.0",
+     "react": "17.0.2",
+     "react-dom": "17.0.2",
+     "remark": "^14.0.2",
+--- a/lib/posts.js
++++ b/lib/posts.js
+@@ -79,7 +79,7 @@
+   //   .use(html)
+   //   .process(matterResult.content)
+   // const contentHtml = processedContent.toString()
+-  const contentHtml = await serialize(matterResult.content)
++  const contentHtml = await serialize(matterResult.content, { blockJS: false })
+ 
+   // Combine the data with the id and contentHtml
+   return {
+--- a/pages/posts/[id].js
++++ b/pages/posts/[id].js
+@@ -20,7 +20,14 @@
+ import nyackTable from '../../components/nyackTable.js'
+ import Link from 'next/link'
+ 
+-const customComponents = { DataWrapper, EmbedImage, mapboxMap, dotPlot, dotPlot2, jumpBox, d3Map, Link, porterTable, dilbertTable, fergusonTable, richardsonTable, stevensTable, nyackTable, johnsonTable, airtableForm }
++const customComponents = {
++  DataWrapper, EmbedImage, Link,
++  // MDX 3 treats lowercase tags as plain HTML, so components need capitalized names
++  MapboxMap: mapboxMap, DotPlot: dotPlot, DotPlot2: dotPlot2, JumpBox: jumpBox, D3Map: d3Map,
++  PorterTable: porterTable, DilbertTable: dilbertTable, FergusonTable: fergusonTable,
++  RichardsonTable: richardsonTable, StevensTable: stevensTable, NyackTable: nyackTable,
++  JohnsonTable: johnsonTable, AirtableForm: airtableForm,
++}
+ 
+ export default function Post({ postData }) {
+ 
+--- a/posts/florida-register-to-vote-oct7.mdx
++++ b/posts/florida-register-to-vote-oct7.mdx
+@@ -22,5 +22,5 @@
+ 
+ <i>Want to stay plugged in for more information about organizing, politics, and the upcoming election? Sign up! </i>
+ 
+-{<airtableForm apiLink="api/updates_signup_submit"/>}
++{<AirtableForm apiLink="api/updates_signup_submit"/>}
+ 
+--- a/posts/florida-rejects-federal-funds-to-feed-children-during-summer-break.mdx
++++ b/posts/florida-rejects-federal-funds-to-feed-children-during-summer-break.mdx
+@@ -7,7 +7,7 @@
+ image: 'image-default.png'
+ ---
+ <br/>
+-{<mapboxMap />}
++{<MapboxMap />}
+ 
+ 39 States [accepted federal funds](https://www.fns.usda.gov/summer/sunbucks#usa-map-links) this year to help families feed their children during Summer Break. But 12 Republican-led States, including Florida, chose to reject the funds, denying families a $120-per-child credit to help families afford to buy groceries and feed their children while they're out of school.
+ 
+--- a/posts/how-often-do-florida-democrats-vote-with-republicans.mdx
++++ b/posts/how-often-do-florida-democrats-vote-with-republicans.mdx
+@@ -33,7 +33,7 @@
+ 
+ #### Rep. Cassel voted with Republicans 91% of the time on bills signed into law last year.
+ 
+-{<dotPlot/>}
++{<DotPlot/>}
+ 
+ While Rep. Cassel had a higher rate of agreement with Republicans than most of her former Democratic colleagues, she didn’t have the highest. That title went to Rep. Cassello of Palm Beach County, who voted with Republicans 96% of the time. 
+ 
+@@ -47,7 +47,7 @@
+ 
+ What I found was something I didn't expect.
+ #### Florida Senate Democrats are more cohesive than House Democrats, based on voting patterns from last Session.
+-{<dotPlot2/>}
++{<DotPlot2/>}
+ 
+ Senate Democrats were remarkably unified last Session. The Republican agreement score ranged only 8 points among Senate Democrats, compared to the House Democrats’ 14 points.
+ 
+--- a/posts/voting-guide-seat-1.mdx
++++ b/posts/voting-guide-seat-1.mdx
+@@ -20,16 +20,16 @@
+ ### [Jacqueline “Jack” Porter](https://www.jackfortallahassee.com)
+ #### Top priority: Contract negotiations with Tallahassee Firefighters
+ 
+-{ <porterTable />}
++{ <PorterTable />}
+ 
+ ### [Louis Dilbert](https://www.louisdilbert.com)
+ #### Top priority: Addressing homelessness and the lack of affordable housing
+ 
+-{ <dilbertTable />}
++{ <DilbertTable />}
+ 
+ ### [Rudy Ferguson](https://www.rudyferguson.com)
+ #### Top priority: Addressing gun violence and improving public safety
+ 
+-{ <fergusonTable />}
++{ <FergusonTable />}
+ 
+ [🔙 Back to 2024 voter guide](../posts/last-minute-voting-guide)
+\ No newline at end of file
+--- a/posts/voting-guide-seat-2.mdx
++++ b/posts/voting-guide-seat-2.mdx
+@@ -20,21 +20,21 @@
+ ### [Curtis Richardson](https://www.jackfortallahassee.com)
+ #### Top priority: Reducing violent crime
+ 
+-{ <richardsonTable />}
++{ <RichardsonTable />}
+ 
+ ### [Dot Inman-Johnson](https://www.facebook.com/DotforTally/&ved=2ahUKEwj3783614OIAxUQD1kFHV45AyI4ChAWegQIExAB&usg=AOvVaw3pHGs2MWDvJdeOLa9FSAjJ)
+ #### Top priority: Combating poverty
+ 
+-{ <johnsonTable />}
++{ <JohnsonTable />}
+ 
+ ### Bernard Stevens Jr.
+ #### Top priority: Improving public safety and security
+ 
+-{ <stevensTable />}
++{ <StevensTable />}
+ 
+ ### Donna Nyack
+ #### Top priority: Addressing the lack of affordable housing
+ 
+-{ <nyackTable />}
++{ <NyackTable />}
+ 
+ [🔙 Back to 2024 voter guide](../posts/last-minute-voting-guide)
+\ No newline at end of file
+--- a/posts/who-to-vote-for.mdx
++++ b/posts/who-to-vote-for.mdx
+@@ -97,5 +97,5 @@
+ 
+ <i>Want to stay plugged in for more information about organizing, politics, and the upcoming election? Sign up for my newsletter! </i>
+ 
+-{<airtableForm apiLink="api/updates_signup_submit"/>}
++{<AirtableForm apiLink="api/updates_signup_submit"/>}
+ 
