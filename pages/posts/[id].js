@@ -20,7 +20,14 @@ import stevensTable from '../../components/stevensTable.js'
 import nyackTable from '../../components/nyackTable.js'
 import Link from 'next/link'
 
-const customComponents = { DataWrapper, EmbedImage, mapboxMap, dotPlot, dotPlot2, jumpBox, d3Map, Link, porterTable, dilbertTable, fergusonTable, richardsonTable, stevensTable, nyackTable, johnsonTable, airtableForm }
+const customComponents = {
+  DataWrapper, EmbedImage, Link,
+  // MDX 3 treats lowercase tags as plain HTML, so components need capitalized names
+  MapboxMap: mapboxMap, DotPlot: dotPlot, DotPlot2: dotPlot2, JumpBox: jumpBox, D3Map: d3Map,
+  PorterTable: porterTable, DilbertTable: dilbertTable, FergusonTable: fergusonTable,
+  RichardsonTable: richardsonTable, StevensTable: stevensTable, NyackTable: nyackTable,
+  JohnsonTable: johnsonTable, AirtableForm: airtableForm,
+}
 
 export default function Post({ postData }) {
 
